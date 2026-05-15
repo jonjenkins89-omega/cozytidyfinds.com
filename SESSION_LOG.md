@@ -33,3 +33,39 @@ Running log of all work done on this project. Most recent entries at the bottom.
   - PLAYBOOK.md (compressed operational intelligence for future Claude sessions)
 
 - **All changes committed and pushed to GitHub.** Site live at https://cozytidyfinds.com.
+
+## 2026-05-15
+
+- **Full multi-page site build completed.** Converted from single-page to 13-page site with 26 products across 5 categories.
+
+- **CSS extracted to shared stylesheet.** Moved 460 lines of inline CSS to `css/styles.css`. Added new rules for multi-page features (hamburger menu, disclosure bar, breadcrumbs, category heroes, blog article styles, manual styles, link-in-bio page).
+
+- **Infrastructure files created.** `js/main.js` (GA4 + affiliate click tracking + mobile menu), `.nojekyll`, `robots.txt`, `404.html`.
+
+- **Homepage rebuilt.** New shared nav with all category pages, mobile hamburger, affiliate disclosure bar, prices removed from product cards (Amazon TOS), placeholder affiliate links with tracking attributes, Kit newsletter form placeholder, updated footer.
+
+- **5 category pages built with 26 products total.** Kitchen (7), Bathroom (4), Organization (6), Bedroom & Cozy (6), Plants (3 + tips section). All products have consumer-facing descriptions, badge labels, tracking attributes, and placeholder affiliate links.
+
+- **About page created.** Brand story from Johnna's perspective, product methodology, FTC-compliant affiliate disclosure (#disclosure), privacy policy (#privacy), contact info.
+
+- **Link-in-bio page created.** Mobile-first standalone page at /links/ with buttons to all categories, blog, and newsletter. Noindexed.
+
+- **Blog launched.** Blog listing page + first post: "7 Best Kitchen Organizers for 2026" (~1,800 words with product reviews, pros/cons, buyer's guide, FAQ section, Article schema).
+
+- **SEO layer added.** XML sitemap with all 9 public URLs. All pages have unique title/description, canonical URLs, Open Graph tags, and JSON-LD structured data.
+
+- **Newsletter forms updated.** All 9 pages have Kit (ConvertKit) form placeholder (FORM_ID to be replaced).
+
+- **Operations manual for Johnna completed.** 10-section guide at /manual/ covering: product management, nav/footer updates, blog posts, email, analytics, social media cheat sheet, compliance rules, seasonal calendar, and ready-to-copy product card template.
+
+- **CLAUDE.md updated** to reflect new multi-page structure, conventions, and placeholder list.
+
+### Pending
+- Email forwarding: support@cozytidyfinds.com -> johnna_917@yahoo.com (Namecheap UI was broken)
+- Replace PLACEHOLDER_ASIN with real ASINs across all pages
+- Replace cozytidyfinds-20 with real Amazon Associates tag
+- Replace G-XXXXXXXXXX with real GA4 measurement ID
+- Replace FORM_ID with real Kit form ID
+- Add real product images
+- Create social media accounts and update placeholder links
+- Apply for Amazon Associates
