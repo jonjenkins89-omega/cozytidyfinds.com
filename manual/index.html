@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Tidy Finds - Operations Manual</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+
+<!-- SHARED:NAV -->
+<nav>
+    <div class="inner">
+        <a href="/" class="logo-text">Cozy Tidy <span>Finds</span></a>
+        <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+        <div class="links">
+            <a href="/kitchen/">Kitchen</a>
+            <a href="/bathroom/">Bathroom</a>
+            <a href="/organization/">Organization</a>
+            <a href="/bedroom/">Bedroom</a>
+            <a href="/plants/">Plants</a>
+            <a href="/blog/">Blog</a>
+            <a href="/about/">About</a>
+            <a href="/#newsletter" class="subscribe-btn">Subscribe</a>
+        </div>
+    </div>
+</nav>
+<!-- /SHARED:NAV -->
+
+<div class="manual-content">
+
+    <h1 style="font-family: var(--serif); font-size: 2rem; color: var(--navy); margin-bottom: 0.5rem; margin-top: 2rem;">Cozy Tidy Finds Operations Manual</h1>
+    <p style="color: var(--text-light); margin-bottom: 2rem;">Everything you need to run the site, post products, manage social media, and stay on the right side of Amazon's rules. If something isn't covered here, ask Jon.</p>
+
+    <div style="background: var(--sage-light); padding: 1rem 1.2rem; border-radius: 8px; margin-bottom: 2rem;">
+        <strong>Quick Links:</strong>
+        <a href="#welcome">Welcome</a> &middot;
+        <a href="#adding-products">Adding Products</a> &middot;
+        <a href="#nav-footer">Nav &amp; Footer</a> &middot;
+        <a href="#blog-posts">Blog Posts</a> &middot;
+        <a href="#email">Email</a> &middot;
+        <a href="#analytics">Analytics</a> &middot;
+        <a href="#social-media">Social Media</a> &middot;
+        <a href="#rules">Rules</a> &middot;
+        <a href="#calendar">Content Calendar</a> &middot;
+        <a href="#template">Product Template</a>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 1: WELCOME & QUICK START -->
+    <!-- ============================================================ -->
+    <h2 id="welcome">1. Welcome &amp; Quick Start</h2>
+
+    <p>This is your guide to running Cozy Tidy Finds. Everything you need is here. You've got this.</p>
+
+    <h3>Important Links</h3>
+    <ul>
+        <li><strong>Live website:</strong> <a href="https://cozytidyfinds.com" target="_blank" rel="noopener">https://cozytidyfinds.com</a></li>
+        <li><strong>GitHub repository</strong> (where the site files live): <a href="https://github.com/jonjenkins89-omega/cozytidyfinds.com" target="_blank" rel="noopener">https://github.com/jonjenkins89-omega/cozytidyfinds.com</a></li>
+    </ul>
+
+    <h3>How to Edit the Site</h3>
+    <ol>
+        <li>Go to the GitHub repository (link above)</li>
+        <li>Navigate to the file you want to edit (for example, <code>kitchen/index.html</code>)</li>
+        <li>Click the <strong>pencil icon</strong> in the top-right corner of the file to open the editor</li>
+        <li>Make your changes right there in the browser</li>
+        <li>Scroll down, type a short note about what you changed (like "Added bamboo organizer to kitchen"), and click <strong>Commit changes</strong></li>
+    </ol>
+
+    <h3>How Changes Go Live</h3>
+    <p>When you save (commit) to the <code>main</code> branch, GitHub automatically publishes your changes to the live site. It usually takes <strong>1-2 minutes</strong> for the changes to show up. Just refresh the page after a couple minutes and you'll see them.</p>
+
+    <p>For bigger changes (adding new pages, changing the layout, anything that feels complicated), ask Jon for help. No need to struggle through it alone.</p>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 2: ADDING A NEW PRODUCT -->
+    <!-- ============================================================ -->
+    <h2 id="adding-products">2. Adding a New Product</h2>
+
+    <p>This is the thing you'll do the most. Here's how to add a product to any category page, step by step.</p>
+
+    <h3>Step 1: Pick the Right Category Page</h3>
+    <p>Decide which room/category the product belongs to, then open the matching file:</p>
+    <ul>
+        <li>Kitchen &rarr; <code>kitchen/index.html</code></li>
+        <li>Bathroom &rarr; <code>bathroom/index.html</code></li>
+        <li>Organization &rarr; <code>organization/index.html</code></li>
+        <li>Bedroom &rarr; <code>bedroom/index.html</code></li>
+        <li>Plants &rarr; <code>plants/index.html</code></li>
+    </ul>
+
+    <h3>Step 2: Find the Product Grid</h3>
+    <p>Once you open the file, search for <code>picks-grid</code> (use Ctrl+F in the editor). That's the section where all the product cards live. You'll paste your new product inside this area.</p>
+
+    <h3>Step 3: Copy This Template</h3>
+    <p>Copy the code below and paste it inside the <code>picks-grid</code> section, right before the closing <code>&lt;/div&gt;</code> that ends the grid (or after the last existing product card):</p>
+
+<pre><code>&lt;div class="product-card"&gt;
+    &lt;div class="product-img"&gt;
+        &lt;div class="placeholder-card"&gt;Product Photo&lt;/div&gt;
+        &lt;span class="badge badge-new"&gt;New Find&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="product-info"&gt;
+        &lt;span class="category-tag"&gt;CATEGORY NAME&lt;/span&gt;
+        &lt;h3&gt;Product Name Here&lt;/h3&gt;
+        &lt;div class="desc"&gt;Write 2-3 sentences about why you love
+this product. Be honest and specific.&lt;/div&gt;
+        &lt;div class="rating"&gt;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;
+X.X (X,XXX reviews)&lt;/div&gt;
+        &lt;div class="price-row"&gt;
+            &lt;a href="https://www.amazon.com/dp/YOUR_ASIN_HERE?tag=cozytidyfinds-20"
+               class="btn-shop affiliate-link"
+               data-product="product-name-slug"
+               data-category="category-name"
+               target="_blank"
+               rel="noopener nofollow sponsored"&gt;
+               Check Price on Amazon
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+    <h3>Step 4: Find the ASIN on Amazon</h3>
+    <p>Go to the product's page on Amazon and look at the URL in your browser's address bar. The ASIN is the 10-character code after <code>/dp/</code>. For example, in this URL:</p>
+    <p><code>https://www.amazon.com/dp/<strong>B08N5WRWNW</strong>/ref=...</code></p>
+    <p>The ASIN is <strong>B08N5WRWNW</strong>. Replace <code>YOUR_ASIN_HERE</code> in the template with this code.</p>
+
+    <h3>Step 5: Fill In the Details</h3>
+    <ol>
+        <li><strong>Badge:</strong> Change <code>badge-new</code> to one of these:
+            <ul>
+                <li><code>badge-new</code> &rarr; shows "New Find" (green)</li>
+                <li><code>badge-favorite</code> &rarr; shows "Staff Pick" or "Best Value" (pink)</li>
+                <li><code>badge-trending</code> &rarr; shows "Trending" or "Viral" (coral)</li>
+            </ul>
+            Also change the text inside the <code>&lt;span&gt;</code> to match (e.g., "Staff Pick", "Trending", etc.)
+        </li>
+        <li><strong>Category tag:</strong> Replace <code>CATEGORY NAME</code> with the room name in all caps (KITCHEN, BATHROOM, etc.)</li>
+        <li><strong>Product name:</strong> Replace <code>Product Name Here</code> with the actual product name</li>
+        <li><strong>Description:</strong> Write 2-3 sentences about why you like it. Keep it honest and real.</li>
+        <li><strong>Rating:</strong> Replace <code>X.X</code> with the star rating from Amazon (like 4.7) and <code>X,XXX</code> with the review count (like 2,847)</li>
+        <li><strong>data-product:</strong> Replace <code>product-name-slug</code> with a short, lowercase, hyphenated name (like <code>bamboo-drawer-organizer</code>). No spaces, no special characters.</li>
+        <li><strong>data-category:</strong> Replace <code>category-name</code> with the room name in lowercase (kitchen, bathroom, etc.)</li>
+    </ol>
+
+    <h3>Step 6: Save and Commit</h3>
+    <p>Click <strong>Commit changes</strong> with a short description of what you added. Done! The product will show up on the live site within 1-2 minutes.</p>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 3: UPDATING NAV AND FOOTER -->
+    <!-- ============================================================ -->
+    <h2 id="nav-footer">3. Updating the Navigation &amp; Footer</h2>
+
+    <p>The navigation bar at the top and the footer at the bottom appear on <strong>every single page</strong> of the site. They're marked in the code with special comments so you can find them:</p>
+    <ul>
+        <li>Navigation: look for <code>&lt;!-- SHARED:NAV --&gt;</code></li>
+        <li>Footer: look for <code>&lt;!-- SHARED:FOOTER --&gt;</code></li>
+    </ul>
+
+    <div class="warning">
+        <strong>Important:</strong> If you change the nav or footer, you need to make the <strong>exact same change</strong> in ALL of these files. If you miss one, that page will have an outdated menu.
+    </div>
+
+    <h3>Files That Share the Nav &amp; Footer</h3>
+    <ul>
+        <li><code>index.html</code> (home page)</li>
+        <li><code>kitchen/index.html</code></li>
+        <li><code>bathroom/index.html</code></li>
+        <li><code>organization/index.html</code></li>
+        <li><code>bedroom/index.html</code></li>
+        <li><code>plants/index.html</code></li>
+        <li><code>about/index.html</code></li>
+        <li><code>blog/index.html</code></li>
+        <li><code>blog/best-kitchen-organizers-2026/index.html</code></li>
+        <li>Any future blog posts you create</li>
+    </ul>
+
+    <p><strong>The links page</strong> (<code>links/index.html</code>) has its own simpler layout and does NOT share the nav/footer. You can skip it when updating these.</p>
+
+    <p><strong>Tip:</strong> Edit one file first to get it right. Then copy the entire nav block (from <code>&lt;!-- SHARED:NAV --&gt;</code> to <code>&lt;!-- /SHARED:NAV --&gt;</code>) and paste it into all the other files, replacing the old version. Same process for the footer.</p>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 4: ADDING A BLOG POST -->
+    <!-- ============================================================ -->
+    <h2 id="blog-posts">4. Adding a Blog Post</h2>
+
+    <p>Blog posts help with search engine traffic and give you something to link to from social media and emails. Here's how to create one:</p>
+
+    <h3>Step 1: Create a New Folder</h3>
+    <p>Under the <code>blog/</code> folder, create a new folder with a URL-friendly name. Use lowercase letters, hyphens instead of spaces, no special characters. For example:</p>
+    <ul>
+        <li><code>blog/best-bathroom-organizers-2026/</code></li>
+        <li><code>blog/spring-cleaning-checklist/</code></li>
+        <li><code>blog/5-minute-kitchen-declutter/</code></li>
+    </ul>
+
+    <h3>Step 2: Create index.html</h3>
+    <p>Create an <code>index.html</code> file inside your new folder. The easiest approach: copy an existing blog post (like <code>blog/best-kitchen-organizers-2026/index.html</code>) and use it as your starting template.</p>
+
+    <h3>Step 3: Update the Content</h3>
+    <p>In your copied file, change these things:</p>
+    <ol>
+        <li>The <code>&lt;title&gt;</code> tag (the browser tab title)</li>
+        <li>The <code>meta description</code> (the summary that shows in Google results)</li>
+        <li>The <code>canonical URL</code> (should point to your new blog post's URL)</li>
+        <li>The structured data (the JSON block at the top, update the title, description, and URL)</li>
+        <li>The breadcrumb text</li>
+        <li>The actual article content (the heading, paragraphs, product recommendations, etc.)</li>
+    </ol>
+
+    <h3>Step 4: Add a Card to the Blog Index</h3>
+    <p>Open <code>blog/index.html</code> and add a card for your new post. Copy an existing blog card and update the title, description, link, and date.</p>
+
+    <h3>Step 5: Update the Sitemap</h3>
+    <p>Open <code>sitemap.xml</code> in the root folder and add your new blog post URL. Copy an existing entry and change the URL and date.</p>
+
+    <h3>Step 6: Commit Everything</h3>
+    <p>Save all the files you changed. Write a commit message like "Add spring cleaning blog post" and commit.</p>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 5: EMAIL & NEWSLETTER -->
+    <!-- ============================================================ -->
+    <h2 id="email">5. Email &amp; Newsletter</h2>
+
+    <p>We use <strong>Kit</strong> (formerly ConvertKit) for email signups and newsletters: <a href="https://app.kit.com" target="_blank" rel="noopener">https://app.kit.com</a></p>
+
+    <h3>How It Works</h3>
+    <p>The signup forms on the website post directly to Kit's servers. When someone subscribes, Kit handles the confirmation email and adds them to your subscriber list automatically. You don't need to do anything on the website side for this.</p>
+
+    <div class="warning">
+        <strong>Never put Amazon affiliate links directly in emails.</strong> This violates Amazon's Terms of Service and can get the account terminated. Instead, link to blog posts or category pages on the website. Those pages already contain the affiliate links, and that's allowed.
+    </div>
+
+    <h3>Weekly "Friday Finds" Newsletter</h3>
+    <ol>
+        <li>Pick 3-5 products you're excited about</li>
+        <li>Write a short, personal note about each one (2-3 sentences)</li>
+        <li>Link to the blog post or category page where the product lives (NOT directly to Amazon)</li>
+        <li>Schedule the send for Friday morning</li>
+    </ol>
+
+    <h3>What Kit Can Do for You</h3>
+    <ul>
+        <li>Automated welcome emails for new subscribers</li>
+        <li>Scheduled newsletter sends</li>
+        <li>Subscriber management (see who's on your list, remove people, etc.)</li>
+        <li>Basic analytics (open rates, click rates)</li>
+    </ul>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 6: ANALYTICS & TRACKING -->
+    <!-- ============================================================ -->
+    <h2 id="analytics">6. Analytics &amp; Tracking</h2>
+
+    <h3>Google Analytics</h3>
+    <p>Visit <a href="https://analytics.google.com" target="_blank" rel="noopener">https://analytics.google.com</a> to see your site traffic.</p>
+    <p>Key things to check each week:</p>
+    <ul>
+        <li><strong>Total visitors:</strong> How many people visited the site?</li>
+        <li><strong>Top pages:</strong> Which pages are people looking at the most?</li>
+        <li><strong>Traffic sources:</strong> Where are visitors coming from? (Pinterest, Google, Instagram, etc.)</li>
+        <li><strong>Affiliate clicks:</strong> The site tracks "affiliate_click" events. These tell you which products people are clicking on.</li>
+    </ul>
+
+    <h3>Amazon Associates Dashboard</h3>
+    <p>Visit <a href="https://affiliate-program.amazon.com" target="_blank" rel="noopener">https://affiliate-program.amazon.com</a> to see your earnings.</p>
+    <p>What you'll find there:</p>
+    <ul>
+        <li><strong>Clicks:</strong> How many people clicked through to Amazon from your links</li>
+        <li><strong>Orders:</strong> How many of those people actually bought something</li>
+        <li><strong>Earnings:</strong> How much commission you've earned</li>
+    </ul>
+    <p>Check this daily during the first few months to see what's working and what's not. Amazon pays commissions <strong>60 days after the month they're earned</strong> (so January earnings arrive in early April).</p>
+
+    <h3>Your Weekly 5-Minute Check</h3>
+    <p>Once a week, spend 5 minutes answering these questions:</p>
+    <ol>
+        <li>How many visitors came to the site this week?</li>
+        <li>Which pages are the most popular?</li>
+        <li>Which products are getting the most clicks?</li>
+        <li>Did any orders come through?</li>
+    </ol>
+    <p>That's it. Don't overthink it. Look for patterns over time, not day-to-day swings.</p>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 7: SOCIAL MEDIA CHEAT SHEET -->
+    <!-- ============================================================ -->
+    <h2 id="social-media">7. Social Media Cheat Sheet</h2>
+
+    <h3>Pinterest (Most Important, 40% of Your Effort)</h3>
+    <p>Pinterest is your number one traffic driver. People search Pinterest like they search Google, and home/organization is Pinterest's single biggest category. This is your sweet spot.</p>
+    <ul>
+        <li>Post <strong>10-15 pins per day</strong> (3-5 original pins you create, the rest can be repins of related content)</li>
+        <li>Use <strong>keyword-rich titles and descriptions</strong>. Think about what someone would type to find your product (e.g., "small kitchen drawer organizer bamboo" not just "cute organizer")</li>
+        <li>Pins drive traffic for <strong>months</strong>, not just days like Instagram. A good pin can send traffic for a year or more.</li>
+        <li>Use <strong>Tailwind</strong> for scheduling so you're not pinning all day</li>
+    </ul>
+
+    <h3>Instagram (30% of Your Effort)</h3>
+    <ul>
+        <li><strong>Reels:</strong> 4-7 per week. Reels are how new people find you.</li>
+        <li><strong>Stories:</strong> Post daily. Use link stickers to send people directly to products.</li>
+        <li><strong>Carousels:</strong> 2-3 per week. Great for "before and after" or "top 5" style posts.</li>
+        <li><strong>Best posting times:</strong> Tuesday, Wednesday, Thursday at 6-9 AM, 12-1 PM, or 7-9 PM</li>
+    </ul>
+
+    <h3>TikTok (20% of Your Effort)</h3>
+    <ul>
+        <li>Post <strong>2-3 videos per day</strong></li>
+        <li><strong>Before/after transformation videos</strong> perform the best (messy drawer &rarr; organized drawer, cluttered counter &rarr; clean counter)</li>
+        <li>Use the <strong>"Comment LINK"</strong> strategy: tell people to comment "LINK" and then send them the product link via DM</li>
+        <li><strong>Best posting times:</strong> Tuesday, Thursday, Friday at 7-9 AM, 12-3 PM, or 7-11 PM</li>
+    </ul>
+
+    <h3>Remaining 10%: Engage &amp; Respond</h3>
+    <p>Spend the remaining time replying to comments, answering DMs, and engaging with other accounts in the home/organization space.</p>
+
+    <h3>Updating the Link-in-Bio Page</h3>
+    <p>Your social media bios link to the Link-in-Bio page. To add, remove, or reorder links, edit <code>links/index.html</code>. This is the one-stop page people land on from your Instagram, TikTok, and Pinterest bios.</p>
+
+    <h3>Disclosure on Social Posts</h3>
+    <div class="warning">
+        <strong>Always include a disclosure on social posts with affiliate links.</strong> The FTC requires this. Add one of these hashtags to every post that includes or leads to an affiliate link: <code>#ad</code>, <code>#affiliate</code>, or <code>#AmazonAssociate</code>. Put it where people can actually see it (not buried under 30 other hashtags).
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 8: RULES THAT CANNOT BE BROKEN -->
+    <!-- ============================================================ -->
+    <h2 id="rules">8. Rules That Cannot Be Broken</h2>
+
+    <div class="warning">
+        <strong>These are compliance rules from Amazon, the FTC, and common sense. Breaking them can get the affiliate account shut down, get fined, or both. Read this section carefully and follow it without exception.</strong>
+    </div>
+
+    <ol>
+        <li>
+            <strong>Never show product prices on the website.</strong>
+            Amazon changes prices constantly (sometimes multiple times per day). Showing a price that doesn't match Amazon's current price violates their Terms of Service. That's why every product uses the "Check Price on Amazon" button instead of listing a price.
+        </li>
+        <li>
+            <strong>Never put affiliate links in emails.</strong>
+            Amazon's Terms of Service explicitly prohibit this. Always link to a blog post or category page on the website instead. The page contains the affiliate link, and that's the allowed approach.
+        </li>
+        <li>
+            <strong>Never offer rewards for clicking affiliate links.</strong>
+            No "click my link and I'll send you a freebie" deals. No contests that require clicking affiliate links. No incentives of any kind.
+        </li>
+        <li>
+            <strong>Always include affiliate disclosure.</strong>
+            On the website, the disclosure bar at the top of every page handles this automatically. On social media, use <code>#ad</code> or <code>#affiliate</code> or <code>#AmazonAssociate</code> on any post with affiliate links.
+        </li>
+        <li>
+            <strong>Never buy products through your own affiliate links.</strong>
+            Amazon tracks this and will terminate the account. Not "might." Will.
+        </li>
+        <li>
+            <strong>Make 3 qualifying sales within 180 days.</strong>
+            After the Amazon Associates account is approved, you need 3 real sales within 180 days or the account gets closed. You can reapply, but it's better to just hit those 3 sales early. Focus on this first.
+        </li>
+        <li>
+            <strong>Never use Amazon's product images without permission.</strong>
+            Amazon's own product photos are copyrighted. Take your own photos of products, or use the placeholder cards already on the site until you have your own photos.
+        </li>
+        <li>
+            <strong>Never bid on Amazon trademarks in paid ads.</strong>
+            If you ever run Google Ads or Facebook Ads, do not use "Amazon," "Kindle," "Prime," or any other Amazon trademark as a keyword. Amazon will terminate your affiliate account for this.
+        </li>
+    </ol>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 9: CONTENT CALENDAR & SEASONAL PLANNING -->
+    <!-- ============================================================ -->
+    <h2 id="calendar">9. Content Calendar &amp; Seasonal Planning</h2>
+
+    <p>Home and organization content is seasonal. The products people want in January (New Year's declutter motivation) are completely different from July (summer outdoor living). Plan your content around these themes:</p>
+
+    <h3>Monthly Themes</h3>
+    <ul>
+        <li><strong>January:</strong> New Year organization, declutter challenge, "fresh start" content</li>
+        <li><strong>February:</strong> Valentine's Day gifts, cozy winter products, small space organization</li>
+        <li><strong>March-April:</strong> Spring cleaning, garage/closet organization, refresh your space</li>
+        <li><strong>May:</strong> Mother's Day gift guide (huge traffic opportunity)</li>
+        <li><strong>June:</strong> Summer organizing, outdoor living, patio and garden</li>
+        <li><strong>July:</strong> Amazon Prime Day (prepare content 6-8 weeks early!)</li>
+        <li><strong>August:</strong> Back-to-school, dorm room organization, getting ready for fall</li>
+        <li><strong>September-October:</strong> Fall cozy season, Halloween decor, holiday prep starts</li>
+        <li><strong>November:</strong> Black Friday / Cyber Monday (this is the biggest revenue month of the year)</li>
+        <li><strong>December:</strong> Holiday gift guides, New Year prep, stocking stuffers</li>
+    </ul>
+
+    <div class="warning">
+        <strong>Key rule:</strong> Publish seasonal content <strong>6-8 weeks BEFORE</strong> the event so it has time to rank in search engines and get picked up by Pinterest. A "Black Friday Gift Guide" published on November 25th is too late. Publish it in early October.
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 10: PRODUCT CARD TEMPLATE (READY TO COPY) -->
+    <!-- ============================================================ -->
+    <h2 id="template">10. Product Card Template (Ready to Copy)</h2>
+
+    <p>Here's the product card template again, all in one place. Copy this whenever you need to add a product. The field reference below explains what each piece does.</p>
+
+<pre><code>&lt;div class="product-card"&gt;
+    &lt;div class="product-img"&gt;
+        &lt;div class="placeholder-card"&gt;Product Photo&lt;/div&gt;
+        &lt;span class="badge badge-new"&gt;New Find&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="product-info"&gt;
+        &lt;span class="category-tag"&gt;CATEGORY NAME&lt;/span&gt;
+        &lt;h3&gt;Product Name Here&lt;/h3&gt;
+        &lt;div class="desc"&gt;Write 2-3 sentences about why you love
+this product. Be honest and specific.&lt;/div&gt;
+        &lt;div class="rating"&gt;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;
+X.X (X,XXX reviews)&lt;/div&gt;
+        &lt;div class="price-row"&gt;
+            &lt;a href="https://www.amazon.com/dp/YOUR_ASIN_HERE?tag=cozytidyfinds-20"
+               class="btn-shop affiliate-link"
+               data-product="product-name-slug"
+               data-category="category-name"
+               target="_blank"
+               rel="noopener nofollow sponsored"&gt;
+               Check Price on Amazon
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+    <h3>Field Reference</h3>
+    <ul>
+        <li><strong><code>badge-new</code> / <code>badge-favorite</code> / <code>badge-trending</code></strong> &mdash; Controls the colored label on the product image. Pick the one that fits.</li>
+        <li><strong><code>CATEGORY NAME</code></strong> &mdash; The room name in all caps: KITCHEN, BATHROOM, ORGANIZATION, BEDROOM, or PLANTS.</li>
+        <li><strong><code>Product Name Here</code></strong> &mdash; The product's name. Keep it readable (you don't need the full Amazon listing title with all the keywords).</li>
+        <li><strong><code>desc</code></strong> &mdash; Your personal take on the product. 2-3 sentences. Why do you like it? What makes it worth buying?</li>
+        <li><strong><code>rating</code></strong> &mdash; The star rating and review count from Amazon. The <code>&amp;#9733;</code> codes display star symbols.</li>
+        <li><strong><code>YOUR_ASIN_HERE</code></strong> &mdash; The 10-character product code from the Amazon URL (after <code>/dp/</code>).</li>
+        <li><strong><code>tag=cozytidyfinds-20</code></strong> &mdash; This is the affiliate tracking tag. Never change this. It's how Amazon knows the click came from us.</li>
+        <li><strong><code>data-product</code></strong> &mdash; A short slug for analytics tracking (like <code>bamboo-drawer-organizer</code>). Lowercase, hyphens, no spaces.</li>
+        <li><strong><code>data-category</code></strong> &mdash; The room name in lowercase for tracking: <code>kitchen</code>, <code>bathroom</code>, <code>organization</code>, <code>bedroom</code>, or <code>plants</code>.</li>
+    </ul>
+
+    <p style="margin-top: 2rem; padding: 1rem; background: var(--cream); border-radius: 8px; text-align: center;"><strong>That's everything!</strong> If you get stuck on anything, ask Jon. He built this thing and can help you with whatever comes up.</p>
+
+</div>
+
+<!-- SHARED:FOOTER -->
+<footer>
+    <div class="inner">
+        <div>
+            <h4>Cozy Tidy Finds</h4>
+            <p>Curated home favorites for people who want their space to feel warm, organized, and genuinely theirs.</p>
+            <p class="affiliate-note" style="margin-top: 1rem;">As an Amazon Associate, we earn from qualifying purchases. This doesn't affect our recommendations or your price.</p>
+        </div>
+        <div>
+            <h4>Shop by Room</h4>
+            <ul>
+                <li><a href="/kitchen/">Kitchen</a></li>
+                <li><a href="/bathroom/">Bathroom</a></li>
+                <li><a href="/organization/">Organization</a></li>
+                <li><a href="/bedroom/">Bedroom &amp; Cozy</a></li>
+                <li><a href="/plants/">Plants</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>More</h4>
+            <ul>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/about/">About Us</a></li>
+                <li><a href="/links/">Follow Us</a></li>
+                <li><a href="mailto:support@cozytidyfinds.com">Email Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom">
+        <span>&copy; 2026 Cozy Tidy Finds. All rights reserved.</span>
+        <span><a href="/about/#privacy">Privacy</a> &middot; <a href="/about/#disclosure">Disclosure</a></span>
+    </div>
+</footer>
+<!-- /SHARED:FOOTER -->
+
+<script src="/js/main.js"></script>
+</body>
+</html>
