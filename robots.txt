@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /manual/
+Disallow: /docs/
+
+Sitemap: https://cozytidyfinds.com/sitemap.xml
