@@ -1,0 +1,360 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:amazon.com magnetic spice rack jars set labels best seller site:amazon.com magnetic spice rack jars set labels best seller
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - link "Search Labs" [ref=e49] [cursor=pointer]:
+        - /url: https://labs.google.com/search?source=srp
+        - img [ref=e50]
+      - button "Google apps" [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - 'button "Google Account: Jonathan Jenkins (jonjenkins89@gmail.com)" [ref=e58] [cursor=pointer]':
+        - img [ref=e59]
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8VAf_JUlgnRMtU3_yQ5DbXsBgMVQzZU8dXNlDLKl77U82wcqq9E4B0s70cqafidLcV8Zm1nM7A7LBbmM4KmZcxB5pgYWL9wsMZ6Y3br0-NPyMlAVZQ&aep=1&ntc=1&sa=X&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ2J8OegQIDxAD
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Shopping" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8VAf_JUlgnRMtU3_yQ5DbXsBgMVQzZU8dXNlDLKl77U82wcqq9E4B0s70cqafidLcV8Zm1nM7A7LBbmM4KmZcxB5pgYWL9wsMZ6Y3br0-NPyMlAVZQ&q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&ved=1t:220175&ictx=111
+              - generic [ref=e89]: Shopping
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8VAf_JUlgnRMtU3_yQ5DbXsBgMVQzZU8dXNlDLKl77U82wcqq9E4B0s70cqafidLcV8Zm1nM7A7LBbmM4KmZcxB5pgYWL9wsMZ6Y3br0-NPyMlAVZQ&q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sa=X&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQtKgLegQIFBAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Short videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8VAf_JUlgnRMtU3_yQ5DbXsBgMVQzZU8dXNlDLKl77U82wcqq9E4B0s70cqafidLcV8Zm1nM7A7LBbmM4KmZcxB5pgYWL9wsMZ6Y3br0-NPyMlAVZQ&q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sa=X&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQs6gLegQIEhAB
+              - generic [ref=e97]: Short videos
+          - listitem [ref=e98]:
+            - link "Videos" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8VAf_JUlgnRMtU3_yQ5DbXsBgMVQzZU8dXNlDLKl77U82wcqq9E4B0s70cqafidLcV8Zm1nM7A7LBbmM4KmZcxB5pgYWL9wsMZ6Y3br0-NPyMlAVZQ&q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sa=X&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQtKgLegQIExAB
+              - generic [ref=e101]: Videos
+          - listitem [ref=e102]:
+            - link "Forums" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8VAf_JUlgnRMtU3_yQ5DbXsBgMVQzZU8dXNlDLKl77U82wcqq9E4B0s70cqafidLcV8Zm1nM7A7LBbmM4KmZcxB5pgYWL9wsMZ6Y3br0-NPyMlAVZQ&q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sa=X&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQs6gLegQIERAB
+              - generic [ref=e105]: Forums
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "Best Spice Racks Amazon.com https://www.amazon.com › zgbs › kitchen" [ref=e142] [cursor=pointer]:
+                - /url: https://www.amazon.com/Best-Sellers-Spice-Racks/zgbs/kitchen/510156
+                - heading "Best Spice Racks" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Amazon.com
+                  - generic [ref=e152]: https://www.amazon.com › zgbs › kitchen
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - emphasis [ref=e161]: SpaceAid Spice Rack Organizer with 28 Spice Jars, 386 Spice Labels
+                - text: ", Chalk Marker and Funnel Set for Cabinet, Countertop, Pantry, Cupboard or Door & Wall Mount"
+              - link "Read more" [ref=e162] [cursor=pointer]:
+                - /url: https://www.amazon.com/Best-Sellers-Spice-Racks/zgbs/kitchen/510156#:~:text=SpaceAid%20Spice%20Rack%20Organizer%20with,W%20%C3%97%2010.8%22%20H%2C%20Black
+            - link "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e165] [cursor=pointer]:
+              - /url: https://www.amazon.com/Best-Sellers-Spice-Racks/zgbs/kitchen/510156
+              - img "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e167]
+        - generic [ref=e171]:
+          - generic [ref=e174]:
+            - link "KitHero Wooden Lid Magnetic Spice Rack with 12 Jars, ... Amazon.com https://www.amazon.com › KitHero-Wooden-Magnetic..." [ref=e176] [cursor=pointer]:
+              - /url: https://www.amazon.com/KitHero-Wooden-Magnetic-Labels-Refrigerator%EF%BC%8CMicrowave/dp/B0FL1YPTYL
+              - heading "KitHero Wooden Lid Magnetic Spice Rack with 12 Jars, ..." [level=3] [ref=e177]
+              - generic [ref=e182]:
+                - generic [ref=e184]: Amazon.com
+                - generic [ref=e186]: https://www.amazon.com › KitHero-Wooden-Magnetic...
+            - button "About this result" [ref=e187] [cursor=pointer]:
+              - img [ref=e190]
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - text: The product also includes
+              - emphasis [ref=e195]: 184 pre-printed spice labels
+              - text: "and 32 blank labels for DIY, making it easy to find the spice you need while cooking. Easy Assemble: The ..."
+            - link "Read more" [ref=e196] [cursor=pointer]:
+              - /url: https://www.amazon.com/KitHero-Wooden-Magnetic-Labels-Refrigerator%EF%BC%8CMicrowave/dp/B0FL1YPTYL#:~:text=The%20product%20also%20includes%20184,Easy%20Assemble%3A%20The
+          - link "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e199] [cursor=pointer]:
+            - /url: https://www.amazon.com/KitHero-Wooden-Magnetic-Labels-Refrigerator%EF%BC%8CMicrowave/dp/B0FL1YPTYL
+            - img "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e201]
+        - generic [ref=e205]:
+          - generic [ref=e208]:
+            - 'link "Talented Kitchen: Bottles & Jars with Labels Amazon.com https://www.amazon.com › TalentedKitchen › page" [ref=e210] [cursor=pointer]':
+              - /url: https://www.amazon.com/stores/TalentedKitchen/page/6B1F1CDF-5BD3-4EFF-AA97-6D1D34AB7954
+              - 'heading "Talented Kitchen: Bottles & Jars with Labels" [level=3] [ref=e211]'
+              - generic [ref=e216]:
+                - generic [ref=e218]: Amazon.com
+                - generic [ref=e220]: https://www.amazon.com › TalentedKitchen › page
+            - button "About this result" [ref=e221] [cursor=pointer]:
+              - img [ref=e224]
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - emphasis [ref=e229]: Talented Kitchen Magnetic Spice Jars for Refrigerator
+              - text: "- 3 oz, Stainless Steel, Set of 12 - Spice Containers with Labels - Magnetic Travel Containers &..."
+            - link "Read more" [ref=e230] [cursor=pointer]:
+              - /url: https://www.amazon.com/stores/TalentedKitchen/page/6B1F1CDF-5BD3-4EFF-AA97-6D1D34AB7954#:~:text=Talented%20Kitchen%20Magnetic%20Spice%20Jars,%2D%20Magnetic%20Travel%20Containers%20%26...
+          - link "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e233] [cursor=pointer]:
+            - /url: https://www.amazon.com/stores/TalentedKitchen/page/6B1F1CDF-5BD3-4EFF-AA97-6D1D34AB7954
+            - img "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e235]
+        - generic [ref=e239]:
+          - generic [ref=e242]:
+            - link "KitHero Magnetic Spice Rack with 24 Jars, 216 Labels, 1 ... Amazon.com https://www.amazon.com › KitHero-Magnetic-Labels-F..." [ref=e244] [cursor=pointer]:
+              - /url: https://www.amazon.com/KitHero-Magnetic-Labels-Funnel-Refrigerator%EF%BC%8CMicrowave/dp/B0BKL64XZP
+              - heading "KitHero Magnetic Spice Rack with 24 Jars, 216 Labels, 1 ..." [level=3] [ref=e245]
+              - generic [ref=e250]:
+                - generic [ref=e252]: Amazon.com
+                - generic [ref=e254]: https://www.amazon.com › KitHero-Magnetic-Labels-F...
+            - button "About this result" [ref=e255] [cursor=pointer]:
+              - img [ref=e258]
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - text: This spice organizer
+              - emphasis [ref=e263]: keeps your spices neat and organized
+              - text: ", making it a great space saver for refrigerators, microwaves, washing machines, and dryers."
+            - link "Read more" [ref=e264] [cursor=pointer]:
+              - /url: https://www.amazon.com/KitHero-Magnetic-Labels-Funnel-Refrigerator%EF%BC%8CMicrowave/dp/B0BKL64XZP#:~:text=This%20spice%20organizer%20keeps%20your,microwaves%2C%20washing%20machines%2C%20and%20dryers.
+          - link "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e267] [cursor=pointer]:
+            - /url: https://www.amazon.com/KitHero-Magnetic-Labels-Funnel-Refrigerator%EF%BC%8CMicrowave/dp/B0BKL64XZP
+            - img "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e269]
+        - generic [ref=e273]:
+          - generic [ref=e276]:
+            - link "Agotglmi 4 Pack Magnetic Spice Rack with 24 Spice Jars ... Amazon.com https://www.amazon.com › Agotglmi-Organizer-Refrig..." [ref=e278] [cursor=pointer]:
+              - /url: https://www.amazon.com/Agotglmi-Organizer-Refrigerator-Microwave-Seasoning/dp/B0D4QKH14F
+              - heading "Agotglmi 4 Pack Magnetic Spice Rack with 24 Spice Jars ..." [level=3] [ref=e279]
+              - generic [ref=e284]:
+                - generic [ref=e286]: Amazon.com
+                - generic [ref=e288]: https://www.amazon.com › Agotglmi-Organizer-Refrig...
+            - button "About this result" [ref=e289] [cursor=pointer]:
+              - img [ref=e292]
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - emphasis [ref=e297]: Agotglmi 4 Pack Magnetic Spice Rack
+              - text: with 24 Spice Jars, Spice Labels, Chalk Marker and Funnel Set, Magnetic Spice Organizer Shelf for Refrigerator, Microwave, ...
+            - link "Read more" [ref=e298] [cursor=pointer]:
+              - /url: https://www.amazon.com/Agotglmi-Organizer-Refrigerator-Microwave-Seasoning/dp/B0D4QKH14F#:~:text=Agotglmi%204%20Pack%20Magnetic%20Spice,Microwave%2C%20Seasoning%20Organizer%20for%20Kitchen
+          - link "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e301] [cursor=pointer]:
+            - /url: https://www.amazon.com/Agotglmi-Organizer-Refrigerator-Microwave-Seasoning/dp/B0D4QKH14F
+            - img "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e303]
+        - generic [ref=e307]:
+          - generic [ref=e310]:
+            - 'link "Amazon.com: Bekith 20 Pack Magnetic Spice Jars ... Amazon.com https://www.amazon.com › Bekith-Magnetic-Multi-Pur..." [ref=e312] [cursor=pointer]':
+              - /url: https://www.amazon.com/Bekith-Magnetic-Multi-Purpose-Storage-Refrigerator/dp/B073PWV35Q
+              - 'heading "Amazon.com: Bekith 20 Pack Magnetic Spice Jars ..." [level=3] [ref=e313]'
+              - generic [ref=e318]:
+                - generic [ref=e320]: Amazon.com
+                - generic [ref=e322]: https://www.amazon.com › Bekith-Magnetic-Multi-Pur...
+            - button "About this result" [ref=e323] [cursor=pointer]:
+              - img [ref=e326]
+          - generic [ref=e329]:
+            - generic [ref=e330]:
+              - emphasis [ref=e331]: Bekith 20 Pack Magnetic Spice Jars
+              - text: ", Magnetic Spice Containers for Refrigerator, Seasoning Tins with Clear Top Lid, 240 PVC Spice Label Set."
+            - link "Read more" [ref=e332] [cursor=pointer]:
+              - /url: https://www.amazon.com/Bekith-Magnetic-Multi-Purpose-Storage-Refrigerator/dp/B073PWV35Q#:~:text=Bekith%2020%20Pack%20Magnetic%20Spice,240%20PVC%20Spice%20Label%20Set
+          - link "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e335] [cursor=pointer]:
+            - /url: https://www.amazon.com/Bekith-Magnetic-Multi-Purpose-Storage-Refrigerator/dp/B073PWV35Q
+            - img "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e337]
+        - generic [ref=e341]:
+          - generic [ref=e344]:
+            - link "Vetacsion Set of 8 Magnetic Spice Tins with 2 Metal Wall ... Amazon.com https://www.amazon.com › Vetacsion-Magnetic-Wall-Pl..." [ref=e346] [cursor=pointer]:
+              - /url: https://www.amazon.com/Vetacsion-Magnetic-Wall-Plates-Preprinted-Seasoning/dp/B0BJV4VDC4
+              - heading "Vetacsion Set of 8 Magnetic Spice Tins with 2 Metal Wall ..." [level=3] [ref=e347]
+              - generic [ref=e352]:
+                - generic [ref=e354]: Amazon.com
+                - generic [ref=e356]: https://www.amazon.com › Vetacsion-Magnetic-Wall-Pl...
+            - button "About this result" [ref=e357] [cursor=pointer]:
+              - img [ref=e360]
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - text: Kitchen
+              - emphasis [ref=e365]: Spice Jars Set
+              - text: . Each
+              - emphasis [ref=e366]: set
+              - text: comes with 8 stainless steel
+              - emphasis [ref=e367]: spice jars
+              - text: ", seamless and safe, and 100"
+              - emphasis [ref=e368]: spice labels
+              - text: .
+            - link "Read more" [ref=e369] [cursor=pointer]:
+              - /url: https://www.amazon.com/Vetacsion-Magnetic-Wall-Plates-Preprinted-Seasoning/dp/B0BJV4VDC4#:~:text=Kitchen%20Spice%20Jars%20Set,safe%2C%20and%20100%20spice%20labels.
+          - link "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e372] [cursor=pointer]:
+            - /url: https://www.amazon.com/Vetacsion-Magnetic-Wall-Plates-Preprinted-Seasoning/dp/B0BJV4VDC4
+            - img "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e374]
+        - generic [ref=e378]:
+          - generic [ref=e381]:
+            - link "ARIBAGGI 4 Pack Magnetic Spice Rack for Refrigerator – Strong ... Amazon.com https://www.amazon.com › ARIBAGGI-Magnetic-Spice..." [ref=e383] [cursor=pointer]:
+              - /url: https://www.amazon.com/ARIBAGGI-Magnetic-Spice-Rack-space-saving/dp/B0DJT7VK5S
+              - heading "ARIBAGGI 4 Pack Magnetic Spice Rack for Refrigerator – Strong ..." [level=3] [ref=e384]
+              - generic [ref=e389]:
+                - generic [ref=e391]: Amazon.com
+                - generic [ref=e393]: https://www.amazon.com › ARIBAGGI-Magnetic-Spice...
+            - button "About this result" [ref=e394] [cursor=pointer]:
+              - img [ref=e397]
+          - generic [ref=e401]:
+            - text: KitHero
+            - emphasis [ref=e402]: Magnetic Spice Rack
+            - text: with 24
+            - emphasis [ref=e403]: Jars
+            - text: ", 216"
+            - emphasis [ref=e404]: Labels
+            - text: ", 1 Steel Funnel ..."
+        - generic [ref=e408]:
+          - generic [ref=e411]:
+            - link "Magnetic Spice Jars Combo Pack 21 Set (6 Large 4 oz ... Amazon.com https://www.amazon.com › Magnetic-Refrigerator-Hexa..." [ref=e413] [cursor=pointer]:
+              - /url: https://www.amazon.com/Magnetic-Refrigerator-Hexagon-Containers-Kitchen/dp/B0DD9RR3QP
+              - heading "Magnetic Spice Jars Combo Pack 21 Set (6 Large 4 oz ..." [level=3] [ref=e414]
+              - generic [ref=e419]:
+                - generic [ref=e421]: Amazon.com
+                - generic [ref=e423]: https://www.amazon.com › Magnetic-Refrigerator-Hexa...
+            - button "About this result" [ref=e424] [cursor=pointer]:
+              - img [ref=e427]
+          - generic [ref=e430]:
+            - generic [ref=e431]:
+              - emphasis [ref=e432]: USA HEXAGON GLASS SPICE JARS, MAGNETIC AIRTIGHT LID, SHAKER, AND SPICE LABELS
+              - text: "ALL INCLUDED. Best Sellers Rank. #102,325 in Kitchen & Dining (See Top 100 in ..."
+            - link "Read more" [ref=e433] [cursor=pointer]:
+              - /url: https://www.amazon.com/Magnetic-Refrigerator-Hexagon-Containers-Kitchen/dp/B0DD9RR3QP#:~:text=Product%20image%20gallery
+          - link "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e436] [cursor=pointer]:
+            - /url: https://www.amazon.com/Magnetic-Refrigerator-Hexagon-Containers-Kitchen/dp/B0DD9RR3QP
+            - img "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e438]
+        - generic [ref=e442]:
+          - generic [ref=e445]:
+            - link "TMNOVO Magnetic Spice Jars for Refrigerator ... Amazon.com https://www.amazon.com › TMNOVO-Magnetic-Spice-..." [ref=e447] [cursor=pointer]:
+              - /url: https://www.amazon.com/TMNOVO-Magnetic-Spice-Refrigerator-Rack/dp/B0C9V5RHKL
+              - heading "TMNOVO Magnetic Spice Jars for Refrigerator ..." [level=3] [ref=e448]
+              - generic [ref=e453]:
+                - generic [ref=e455]: Amazon.com
+                - generic [ref=e457]: https://www.amazon.com › TMNOVO-Magnetic-Spice-...
+            - button "About this result" [ref=e458] [cursor=pointer]:
+              - img [ref=e461]
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - text: These stylish jars save space and keep seasonings within easy reach.
+              - emphasis [ref=e466]: Each jar features clear labels
+              - text: and shaker lids for effortless cooking.
+            - link "Read more" [ref=e467] [cursor=pointer]:
+              - /url: https://www.amazon.com/TMNOVO-Magnetic-Spice-Refrigerator-Rack/dp/B0C9V5RHKL#:~:text=Available%20in%20black%20or%20white,shaker%20lids%20for%20effortless%20cooking.
+          - link "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e470] [cursor=pointer]:
+            - /url: https://www.amazon.com/TMNOVO-Magnetic-Spice-Refrigerator-Rack/dp/B0C9V5RHKL
+            - img "site:amazon.com magnetic spice rack jars set labels best seller from www.amazon.com" [ref=e472]
+      - generic [ref=e474]:
+        - generic [ref=e479]:
+          - heading "People also search for" [level=2] [ref=e481]
+          - generic [ref=e483]:
+            - generic [ref=e484]:
+              - link "Magnetic spice rack jars set labels best seller usa" [ref=e488] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&q=Magnetic+spice+rack+jars+set+labels+best+seller+usa&sa=X&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ1QJ6BAgxEAE
+                - generic [ref=e489]:
+                  - generic [ref=e494]: Magnetic spice rack jars set labels best seller usa
+                  - img [ref=e498]
+              - link "Magnetic spice rack jars set labels best seller amazon" [ref=e503] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&q=Magnetic+spice+rack+jars+set+labels+best+seller+amazon&sa=X&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ1QJ6BAgyEAE
+                - generic [ref=e504]:
+                  - generic [ref=e509]: Magnetic spice rack jars set labels best seller amazon
+                  - img [ref=e513]
+            - link "Large magnetic spice rack jars set labels best seller" [ref=e519] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&q=Large+magnetic+spice+rack+jars+set+labels+best+seller&sa=X&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ1QJ6BAgwEAE
+              - generic [ref=e520]:
+                - generic [ref=e525]: Large magnetic spice rack jars set labels best seller
+                - img [ref=e529]
+        - navigation [ref=e531]:
+          - heading "Page Navigation" [level=1] [ref=e532]
+          - text: "1"
+          - link "Page 2" [ref=e535] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=10&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8tMDegQILhAE
+            - text: "2"
+          - link "Page 3" [ref=e537] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=20&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8tMDegQILhAG
+            - text: "3"
+          - link "Page 4" [ref=e539] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=30&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8tMDegQILhAI
+            - text: "4"
+          - link "Page 5" [ref=e541] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=40&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8tMDegQILhAK
+            - text: "5"
+          - link "Page 6" [ref=e543] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=50&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8tMDegQILhAM
+            - text: "6"
+          - link "Page 7" [ref=e545] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=60&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8tMDegQILhAO
+            - text: "7"
+          - link "Page 8" [ref=e547] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=70&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8tMDegQILhAQ
+            - text: "8"
+          - link "Page 9" [ref=e549] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=80&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8tMDegQILhAS
+            - text: "9"
+          - link "Page 10" [ref=e551] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=90&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8tMDegQILhAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e553]:
+            - link "Next" [ref=e554] [cursor=pointer]:
+              - /url: /search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&sca_esv=2aaede6942444870&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329&ei=vLIHaproE6jgruEPvOfz4AY&start=10&sa=N&sstk=AU9db-D-KrQjUeTnNIC1n5Rg4FUzO43PsSbsSpjxJg9vRm7wPqmq4Zjg_B3ljYSUnTMLQO-ZyX9Mq0p6eC1g-j1ZtIOHJK6DE-X4OQ&ved=2ahUKEwiatqi4v7yUAxUosCsGHbzzHGwQ8NMDegQILhAW
+              - generic [ref=e556]: Next
+      - navigation
+    - contentinfo [ref=e557]:
+      - heading "Footer Links" [level=1] [ref=e558]
+      - generic [ref=e562]:
+        - generic [ref=e565]:
+          - generic [ref=e566]: Results are personalized
+          - generic [ref=e567]: "-"
+          - link "Try without personalization" [ref=e569] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=site:amazon.com+magnetic+spice+rack+jars+set+labels+best+seller&peek_pws=0&sxsrf=ANbL-n6bFd4hbx7DLzRTr8_KHJCp5qqYPw:1778889404329
+            - generic [ref=e570]: Try without personalization
+        - generic [ref=e574]:
+          - button "03103, Manchester, NH - Based on your places (Home)" [ref=e576] [cursor=pointer]:
+            - generic [ref=e577]: 03103, Manchester, NH
+            - generic [ref=e579]:
+              - text: "-"
+              - generic [ref=e580]: Based on your places (Home)
+          - text: "-"
+          - button "Update location" [ref=e582] [cursor=pointer]: Update location
+        - generic [ref=e585]:
+          - link "Help" [ref=e586] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e587] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e588] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e589] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

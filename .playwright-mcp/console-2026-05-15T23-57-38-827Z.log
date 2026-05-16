@@ -1,0 +1,31 @@
+[     278ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     281ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     750ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[     753ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     754ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     801ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     818ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[     819ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     820ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     824ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[     830ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[     830ms] [WARNING] No client strategy found. Metrics will not be enabled. @ https://m.media-amazon.com/images/I/911U-Fct8AL.js:26
+[     841ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     824ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[     830ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    1412ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[    1418ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1419ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     824ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[     830ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    1459ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[    1464ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1477ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1539ms] [ERROR] Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED @ https://www.amazon.com/tt/i:0
+[    1652ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1657ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1662ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1668ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1671ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1675ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    3470ms] [ERROR] Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {"m":"ARA:RegisterTriggerResponseError:DPV. Error receiving response from ARAServiceFailed to execute 'json' on 'Response': Unexpected end of JSON input","name":"SyntaxError","csm":"v5 ueLogError stack","logLevel":"ERROR","attribution":"ARARegisterTrigger","pageURL":"https://www.amazon.com/dp/B0BNQ56MH5?th=1","f":"https://m.media-amazon.com/images/I/21vARlfe4pL._RC%7C11WTF6kPMoL.js_.js?AUIClients/ARARegisterTriggerSubAssets-dpv","l":"7","s":["SyntaxError: Unexpected end of JSON input","at https://m.media-amazon.com/images/I/21vARlfe4pL._RC%7C11WTF6kPMoL.js_.js?AUIClients/ARARegisterTriggerSubAssets-dpv:7:384"],"t":3180} {m: ARA:RegisterTriggerResponseError:DPV. Error receiv…json' on 'Response': Unexpected end of JSON input, name: SyntaxError, type: undefined, csm: v5 ueLogError stack, logLevel: ERROR} @ https://images-na.ssl-images-amazon.com/images/I/215h87l68bL.js:3

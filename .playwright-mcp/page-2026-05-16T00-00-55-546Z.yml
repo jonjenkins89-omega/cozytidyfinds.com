@@ -1,0 +1,394 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8QPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: amazon.com "B097K4B6Z8" PRAKI airtight food storage amazon.com "B097K4B6Z8" PRAKI airtight food storage
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - link "Search Labs" [ref=e49] [cursor=pointer]:
+        - /url: https://labs.google.com/search?source=srp
+        - img [ref=e50]
+      - button "Google apps" [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - 'button "Google Account: Jonathan Jenkins (jonjenkins89@gmail.com)" [ref=e58] [cursor=pointer]':
+        - img [ref=e59]
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5k_j-BEKTz7eFvTcQx9ywdbDLiIUHhkZZ1z45KQ-rQq6D-i9OJj_uEzPsV2LrfptoiWDNPq5Wd56Ijrnxpn7cNGdXHdrItbrAVdV_kHKO32sgpYIEg&aep=1&ntc=1&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q2J8OegQIDxAD
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Shopping" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5k_j-BEKTz7eFvTcQx9ywdbDLiIUHhkZZ1z45KQ-rQq6D-i9OJj_uEzPsV2LrfptoiWDNPq5Wd56Ijrnxpn7cNGdXHdrItbrAVdV_kHKO32sgpYIEg&q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&ved=1t:220175&ictx=111
+              - generic [ref=e89]: Shopping
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5k_j-BEKTz7eFvTcQx9ywdbDLiIUHhkZZ1z45KQ-rQq6D-i9OJj_uEzPsV2LrfptoiWDNPq5Wd56Ijrnxpn7cNGdXHdrItbrAVdV_kHKO32sgpYIEg&q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8QtKgLegQIEhAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Short videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5k_j-BEKTz7eFvTcQx9ywdbDLiIUHhkZZ1z45KQ-rQq6D-i9OJj_uEzPsV2LrfptoiWDNPq5Wd56Ijrnxpn7cNGdXHdrItbrAVdV_kHKO32sgpYIEg&q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Qs6gLegQIExAB
+              - generic [ref=e97]: Short videos
+          - listitem [ref=e98]:
+            - link "Forums" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5k_j-BEKTz7eFvTcQx9ywdbDLiIUHhkZZ1z45KQ-rQq6D-i9OJj_uEzPsV2LrfptoiWDNPq5Wd56Ijrnxpn7cNGdXHdrItbrAVdV_kHKO32sgpYIEg&q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Qs6gLegQIFBAB
+              - generic [ref=e101]: Forums
+          - listitem [ref=e102]:
+            - link "Videos" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5k_j-BEKTz7eFvTcQx9ywdbDLiIUHhkZZ1z45KQ-rQq6D-i9OJj_uEzPsV2LrfptoiWDNPq5Wd56Ijrnxpn7cNGdXHdrItbrAVdV_kHKO32sgpYIEg&q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8QtKgLegQIFRAB
+              - generic [ref=e105]: Videos
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "PRAKI Airtight Food Storage Containers Set with Lids Amazon.com https://www.amazon.com › B097K4B6Z8" [ref=e142] [cursor=pointer]:
+                - /url: https://www.amazon.com/Airtight-Food-Storage-Containers-Lids/dp/B097K4B6Z8
+                - heading "PRAKI Airtight Food Storage Containers Set with Lids" [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Amazon.com
+                  - generic [ref=e152]: https://www.amazon.com › B097K4B6Z8
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e160]:
+              - text: "Sealing Safe: These flour and sugar"
+              - emphasis [ref=e161]: containers
+              - text: are equipped with a silicone sealing strip and four locking lids to ensure that water and air cannot enter it, ...
+        - generic [ref=e165]:
+          - generic [ref=e168]:
+            - link "PRAKI Airtight Food Storage Containers Set with Lids امازون السعودية https://www.amazon.sa › B097K4B6Z8" [ref=e170] [cursor=pointer]:
+              - /url: https://www.amazon.sa/-/en/PRAKI-Airtight-Food-Storage-Containers/dp/B097K4B6Z8
+              - heading "PRAKI Airtight Food Storage Containers Set with Lids" [level=3] [ref=e171]
+              - generic [ref=e176]:
+                - generic [ref=e178]: امازون السعودية
+                - generic [ref=e180]: https://www.amazon.sa › B097K4B6Z8
+            - button "About this result" [ref=e181] [cursor=pointer]:
+              - img [ref=e184]
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - text: ...
+              - emphasis [ref=e189]: Amazon
+              - text: ".sa: Home. ..."
+              - emphasis [ref=e190]: B097K4B6Z8
+              - text: . Customer Reviews, 4.6 out of 5 stars 15,179Reviews. Capacity, 7 ...
+            - link "Read more" [ref=e191] [cursor=pointer]:
+              - /url: https://www.amazon.sa/-/en/PRAKI-Airtight-Food-Storage-Containers/dp/B097K4B6Z8#:~:text=Product%20image%20gallery
+          - generic [ref=e193]:
+            - generic [ref=e194]: SAR 462.00
+            - text: ·
+            - img "Rated 4.6 out of 5, (15,179) user reviews" [ref=e198]:
+              - text: "4.6"
+              - img [ref=e199]
+              - text: (15,179)
+        - generic [ref=e205]:
+          - generic [ref=e208]:
+            - link "24 PCS Airtight Food Storage Containers Set, BPA Free, Leak- ... eBay https://www.ebay.com › ... › Lighting Parts" [ref=e210] [cursor=pointer]:
+              - /url: https://www.ebay.com/itm/297559059124
+              - heading "24 PCS Airtight Food Storage Containers Set, BPA Free, Leak- ..." [level=3] [ref=e211]
+              - generic [ref=e216]:
+                - generic [ref=e218]: eBay
+                - generic [ref=e220]: https://www.ebay.com › ... › Lighting Parts
+            - button "About this result" [ref=e221] [cursor=pointer]:
+              - img [ref=e224]
+          - generic [ref=e228]:
+            - text: "Product reference:"
+            - emphasis [ref=e229]: B097K4B6Z8
+            - text: . Features. Premium vintage leather material; Timeless appeal and style; Exceptional durability; Suitable for any occasion ...
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - 'link "#kitchenproducts #USA #freeproduct Airtight Food Storage ... Instagram https://www.instagram.com › DTYrajGADC2" [ref=e238] [cursor=pointer]':
+              - /url: https://www.instagram.com/p/DTYrajGADC2/
+              - 'heading "#kitchenproducts #USA #freeproduct Airtight Food Storage ..." [level=3] [ref=e239]'
+              - generic [ref=e244]:
+                - generic [ref=e246]: Instagram
+                - generic [ref=e248]: https://www.instagram.com › DTYrajGADC2
+            - button "About this result" [ref=e249] [cursor=pointer]:
+              - img [ref=e252]
+          - generic [ref=e256]:
+            - text: "Buy Now: http://www."
+            - emphasis [ref=e257]: amazon.com
+            - text: /dp/
+            - emphasis [ref=e258]: B097K4B6Z8
+            - text: /ref=nosim?tag=neatnestgadge-20. more. January 15 · neatnestgadgets's profile picture · neatnestgadgets. •. Follow.
+        - generic [ref=e262]:
+          - generic [ref=e265]:
+            - link "Looking for the best storange container for supplements ISO Facebook · Barn, Tackroom & Trailer Design, DIY & Hacks 4 comments · 3 months ago" [ref=e267] [cursor=pointer]:
+              - /url: https://www.facebook.com/groups/barnhacksanddiy/posts/1664080031438096/
+              - heading "Looking for the best storange container for supplements ISO" [level=3] [ref=e268]
+              - generic [ref=e273]:
+                - generic [ref=e275]: Facebook · Barn, Tackroom & Trailer Design, DIY & Hacks
+                - generic [ref=e277]: 4 comments · 3 months ago
+            - button "About this result" [ref=e278] [cursor=pointer]:
+              - img [ref=e281]
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - text: https://www.
+              - emphasis [ref=e286]: amazon.com
+              - text: /
+              - emphasis [ref=e287]: Airtight
+              - text: "-"
+              - emphasis [ref=e288]: Food
+              - text: "-"
+              - emphasis [ref=e289]: Storage
+              - text: "-Containers-Lids/dp/"
+              - emphasis [ref=e290]: B097K4B6Z8
+              - text: .
+              - emphasis [ref=e291]: amazon.com
+              - text: ". Deal:"
+              - emphasis [ref=e292]: PRAKI Airtight Food Storage
+              - text: Containers Set with ...
+            - link "Read more" [ref=e293] [cursor=pointer]:
+              - /url: https://www.facebook.com/groups/barnhacksanddiy/posts/1664080031438096/#:~:text=https%3A%2F%2Fwww.amazon.com%2FAirtight%2DFood%2D%20Storage%2DContainers%2DLids%2Fdp%2FB097K4B6Z8,with%20Lids%20%2D%2024%20PCS%2C
+        - generic [ref=e297]:
+          - heading "Images" [level=2] [ref=e301]
+          - generic [ref=e305]:
+            - generic [ref=e309] [cursor=pointer]:
+              - link "PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ... Amazon.com":
+                - /url: https://www.amazon.com/Airtight-Food-Storage-Containers-Lids/dp/B097K4B6Z8
+              - button "PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ..." [ref=e311]:
+                - img "PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ..." [ref=e313]
+              - generic [ref=e315]:
+                - generic [ref=e317]: PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ...
+                - generic [ref=e318]:
+                  - generic [ref=e325]: Amazon.com
+                  - button "About this result" [ref=e328]:
+                    - img [ref=e331]
+            - generic [ref=e336] [cursor=pointer]:
+              - link "PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ... Amazon.com":
+                - /url: https://www.amazon.com/Airtight-Food-Storage-Containers-Lids/dp/B097K4B6Z8
+              - button "PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ..." [ref=e338]:
+                - img "PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ..." [ref=e340]
+              - generic [ref=e342]:
+                - generic [ref=e344]: PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ...
+                - generic [ref=e345]:
+                  - generic [ref=e352]: Amazon.com
+                  - button "About this result" [ref=e355]:
+                    - img [ref=e358]
+            - generic [ref=e363] [cursor=pointer]:
+              - link "PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ... Amazon.com":
+                - /url: https://www.amazon.com/Airtight-Food-Storage-Containers-Lids/dp/B097K4B6Z8
+              - button "PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ..." [ref=e365]:
+                - img "PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ..." [ref=e367]
+              - generic [ref=e369]:
+                - generic [ref=e371]: PRAKI Airtight Food Storage Containers Set with Lids - 24 PCS, BPA Free Kitchen and Pantry Organization, Plastic Leak-proof Canisters for Cereal Flour ...
+                - generic [ref=e372]:
+                  - generic [ref=e379]: Amazon.com
+                  - button "About this result" [ref=e382]:
+                    - img [ref=e385]
+          - button "Show more images" [ref=e388] [cursor=pointer]:
+            - separator [ref=e389]
+            - generic [ref=e390]:
+              - generic [ref=e391]: Show more images
+              - img [ref=e393]
+        - generic [ref=e397]:
+          - heading "Web results" [level=2] [ref=e398]
+          - generic [ref=e399]:
+            - generic [ref=e402]:
+              - link "24 Pack Airtight Storage Containers with Lids - BPA Free ... Amazon.com.be https://www.amazon.com.be › B097K4B6Z8" [ref=e404] [cursor=pointer]:
+                - /url: https://www.amazon.com.be/-/en/Pack-Airtight-Storage-Containers-Lids/dp/B097K4B6Z8
+                - heading "24 Pack Airtight Storage Containers with Lids - BPA Free ..." [level=3] [ref=e405]
+                - generic [ref=e410]:
+                  - generic [ref=e412]: Amazon.com.be
+                  - generic [ref=e414]: https://www.amazon.com.be › B097K4B6Z8
+              - button "About this result" [ref=e415] [cursor=pointer]:
+                - img [ref=e418]
+            - generic [ref=e421]:
+              - generic [ref=e422]:
+                - emphasis [ref=e423]: PRAKI
+                - text: . UPC, 791783940002 752771020977. Included Components, Supplied flat packed. ASIN,
+                - emphasis [ref=e424]: B097K4B6Z8
+                - text: . Customer Reviews, 4.6 out of 5 stars 15,261Reviews. Material ...
+              - link "Read more" [ref=e425] [cursor=pointer]:
+                - /url: https://www.amazon.com.be/-/en/Pack-Airtight-Storage-Containers-Lids/dp/B097K4B6Z8#:~:text=Product%20image%20gallery
+            - generic [ref=e427]:
+              - generic [ref=e428]: €95.23
+              - text: ·
+              - generic [ref=e429]: In stock
+              - text: ·
+              - img "Rated 4.6 out of 5, (15,261) user reviews" [ref=e435]:
+                - text: "4.6"
+                - img [ref=e436]
+                - text: (15,261)
+        - generic [ref=e442]:
+          - generic [ref=e445]:
+            - link "Airtight Food Storage Containers Set With Lids 24 Pcs Bpa Desertcart Monaco https://monaco.desertcart.com › products › 350492196-..." [ref=e447] [cursor=pointer]:
+              - /url: https://monaco.desertcart.com/products/350492196-airtight-food-storage-containers-set-with-lids-24-pcs-bpa
+              - heading "Airtight Food Storage Containers Set With Lids 24 Pcs Bpa" [level=3] [ref=e448]
+              - generic [ref=e453]:
+                - generic [ref=e455]: Desertcart Monaco
+                - generic [ref=e457]: https://monaco.desertcart.com › products › 350492196-...
+            - button "About this result" [ref=e458] [cursor=pointer]:
+              - img [ref=e461]
+          - generic [ref=e465]:
+            - text: The
+            - emphasis [ref=e466]: PRAKI Airtight Food Storage
+            - text: Containers Set ... Specifications. ASIN,
+            - emphasis [ref=e467]: B097K4B6Z8
+            - text: ". Best Sellers Rank, #1,040 in Kitchen ... It is not the forts time I buy ..."
+        - generic [ref=e471]:
+          - generic [ref=e474]:
+            - 'link "Lot #2100P: PRAKI Airtight Food Storage Containers MAC.BID https://www.mac.bid › auction › lot" [ref=e476] [cursor=pointer]':
+              - /url: https://www.mac.bid/auction/32221/lot/2100P
+              - 'heading "Lot #2100P: PRAKI Airtight Food Storage Containers" [level=3] [ref=e477]'
+              - generic [ref=e482]:
+                - generic [ref=e484]: MAC.BID
+                - generic [ref=e486]: https://www.mac.bid › auction › lot
+            - button "About this result" [ref=e487] [cursor=pointer]:
+              - img [ref=e490]
+          - generic [ref=e494]:
+            - emphasis [ref=e495]: PRAKI Airtight Food Storage
+            - text: Containers Set with Lids - 24 PCS, BPA Free Kitchen ...
+            - emphasis [ref=e496]: B097K4B6Z8
+            - text: ". Dimension: ‎13\"L x 12\"W x 7\"H. Aisle ..."
+            - emphasis [ref=e497]: Amazon
+            - text: .
+            - emphasis [ref=e498]: PRAKI Airtight
+            - text: Food ...
+        - generic [ref=e502]:
+          - generic [ref=e505]:
+            - link "Amazon Kitchen Best Sellers Dataset 2024 Kaggle https://www.kaggle.com › kanchana1990 › data" [ref=e507] [cursor=pointer]:
+              - /url: https://www.kaggle.com/datasets/kanchana1990/amazon-kitchen-best-sellers-dataset-2024/data
+              - heading "Amazon Kitchen Best Sellers Dataset 2024" [level=3] [ref=e508]
+              - generic [ref=e513]:
+                - generic [ref=e515]: Kaggle
+                - generic [ref=e517]: https://www.kaggle.com › kanchana1990 › data
+            - button "About this result" [ref=e518] [cursor=pointer]:
+              - img [ref=e521]
+          - generic [ref=e525]:
+            - emphasis [ref=e526]: B097K4B6Z8
+            - text: https://www.
+            - emphasis [ref=e527]: amazon.com
+            - text: /dp/
+            - emphasis [ref=e528]: B097K4B6Z8
+            - text: ClearSpace Plastic Storage ... B076CTTZKX https://www.
+            - emphasis [ref=e529]: amazon.com
+            - text: /dp/B076CTTZKX
+            - emphasis [ref=e530]: PRAKI Airtight Food Storage
+            - text: ...
+      - generic [ref=e532]:
+        - generic [ref=e537]:
+          - heading "People also search for" [level=2] [ref=e539]
+          - generic [ref=e541]:
+            - generic [ref=e542]:
+              - link "Amazon Glass Food Storage Containers with Lids" [ref=e546] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&q=Amazon+Glass+Food+Storage+Containers+with+Lids&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q1QJ6BAgvEAE
+                - generic [ref=e547]:
+                  - generic [ref=e552]: Amazon Glass Food Storage Containers with Lids
+                  - img [ref=e556]
+              - link "Glass Food Storage containers with Airtight Lids" [ref=e561] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&q=Glass+Food+Storage+containers+with+Airtight+Lids&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q1QJ6BAgzEAE
+                - generic [ref=e562]:
+                  - generic [ref=e567]: Glass Food Storage containers with Airtight Lids
+                  - img [ref=e571]
+              - link "4L Food Storage Containers" [ref=e576] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&q=4L+Food+Storage+Containers&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q1QJ6BAgyEAE
+                - generic [ref=e577]:
+                  - generic [ref=e582]: 4L Food Storage Containers
+                  - img [ref=e586]
+              - link "Vtopmart Glass Food Storage Containers" [ref=e591] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&q=Vtopmart+Glass+Food+Storage+Containers&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q1QJ6BAgxEAE
+                - generic [ref=e592]:
+                  - generic [ref=e597]: Vtopmart Glass Food Storage Containers
+                  - img [ref=e601]
+            - generic [ref=e603]:
+              - link "Airtight Glass containers" [ref=e607] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&q=Airtight+Glass+containers&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q1QJ6BAgwEAE
+                - generic [ref=e608]:
+                  - generic [ref=e613]: Airtight Glass containers
+                  - img [ref=e617]
+              - link "Vtopmart glass containers reviews" [ref=e622] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&q=Vtopmart+glass+containers+reviews&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q1QJ6BAguEAE
+                - generic [ref=e623]:
+                  - generic [ref=e628]: Vtopmart glass containers reviews
+                  - img [ref=e632]
+              - link "Green Glass Storage containers" [ref=e637] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&q=Green+Glass+Storage+containers&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q1QJ6BAgsEAE
+                - generic [ref=e638]:
+                  - generic [ref=e643]: Green Glass Storage containers
+                  - img [ref=e647]
+              - link "Is Vtopmart a good brand" [ref=e652] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&q=Is+Vtopmart+a+good+brand&sa=X&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q1QJ6BAgtEAE
+                - generic [ref=e653]:
+                  - generic [ref=e658]: Is Vtopmart a good brand
+                  - img [ref=e662]
+        - navigation [ref=e664]:
+          - heading "Page Navigation" [level=1] [ref=e665]
+          - text: "1"
+          - link "Page 2" [ref=e668] [cursor=pointer]:
+            - /url: /search?q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&ei=uLMHapWsMuC0wN4P96nu-AI&start=10&sa=N&sstk=AU9db-CZT-fDErtrLrMJVgewA2Nbe8yv7Zog96PtV_--FtZAzXMxxPAufGDpGxvuxdjOKcgUp3k70hIktm_rVp9t7YGBBGgS4b2tmA&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q8tMDegQIKhAE
+            - text: "2"
+          - link "Page 3" [ref=e670] [cursor=pointer]:
+            - /url: /search?q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&ei=uLMHapWsMuC0wN4P96nu-AI&start=20&sa=N&sstk=AU9db-CZT-fDErtrLrMJVgewA2Nbe8yv7Zog96PtV_--FtZAzXMxxPAufGDpGxvuxdjOKcgUp3k70hIktm_rVp9t7YGBBGgS4b2tmA&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q8tMDegQIKhAG
+            - text: "3"
+          - link "Page 4" [ref=e672] [cursor=pointer]:
+            - /url: /search?q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&ei=uLMHapWsMuC0wN4P96nu-AI&start=30&sa=N&sstk=AU9db-CZT-fDErtrLrMJVgewA2Nbe8yv7Zog96PtV_--FtZAzXMxxPAufGDpGxvuxdjOKcgUp3k70hIktm_rVp9t7YGBBGgS4b2tmA&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q8tMDegQIKhAI
+            - text: "4"
+          - heading "Next" [level=2] [ref=e674]:
+            - link "Next" [ref=e675] [cursor=pointer]:
+              - /url: /search?q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&sca_esv=2aaede6942444870&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830&ei=uLMHapWsMuC0wN4P96nu-AI&start=10&sa=N&sstk=AU9db-CZT-fDErtrLrMJVgewA2Nbe8yv7Zog96PtV_--FtZAzXMxxPAufGDpGxvuxdjOKcgUp3k70hIktm_rVp9t7YGBBGgS4b2tmA&ved=2ahUKEwiV6NuwwLyUAxVgGtAFHfeUGy8Q8NMDegQIKhAK
+              - generic [ref=e677]: Next
+      - navigation
+    - contentinfo [ref=e678]:
+      - heading "Footer Links" [level=1] [ref=e679]
+      - generic [ref=e683]:
+        - generic [ref=e686]:
+          - generic [ref=e687]: Results are personalized
+          - generic [ref=e688]: "-"
+          - link "Try without personalization" [ref=e690] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=amazon.com+%22B097K4B6Z8%22+PRAKI+airtight+food+storage&peek_pws=0&sxsrf=ANbL-n4OqcUZQrdwIk5LJrf52BWELFdaBw:1778889656830
+            - generic [ref=e691]: Try without personalization
+        - generic [ref=e695]:
+          - button "03103, Manchester, NH - Based on your places (Home)" [ref=e697] [cursor=pointer]:
+            - generic [ref=e698]: 03103, Manchester, NH
+            - generic [ref=e700]:
+              - text: "-"
+              - generic [ref=e701]: Based on your places (Home)
+          - text: "-"
+          - button "Update location" [ref=e703] [cursor=pointer]: Update location
+        - generic [ref=e706]:
+          - link "Help" [ref=e707] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e708] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e709] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e710] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

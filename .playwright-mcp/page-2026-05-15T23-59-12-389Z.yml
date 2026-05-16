@@ -1,0 +1,283 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjBnb__v7yUAxU378kDHQHXHGMQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: amazon "B0BKL64XZP" KitHero magnetic spice rack 24 jars rating reviews stars amazon "B0BKL64XZP" KitHero magnetic spice rack 24 jars rating reviews stars
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - link "Search Labs" [ref=e49] [cursor=pointer]:
+        - /url: https://labs.google.com/search?source=srp
+        - img [ref=e50]
+      - button "Google apps" [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - 'button "Google Account: Jonathan Jenkins (jonjenkins89@gmail.com)" [ref=e58] [cursor=pointer]':
+        - img [ref=e59]
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=amazon+%22B0BKL64XZP%22+KitHero+magnetic+spice+rack+24+jars+rating+reviews+stars&sca_esv=2aaede6942444870&sxsrf=ANbL-n7BuB5ZifgdanqUHy_gxoFaHtt3Hg:1778889553599&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8Smpdp-CLrzmu1zPWujwZtnTngOWG-YmCRh5L_45-P5tx5GnvgFlZD_LXnW4JrjOErgq-IqjkKjJf7gYyiZYQLCl_JSJMflxLrzmbty6uUZkEUObYA&aep=1&ntc=1&sa=X&ved=2ahUKEwjBnb__v7yUAxU378kDHQHXHGMQ2J8OegQIDxAD
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Shopping" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n7BuB5ZifgdanqUHy_gxoFaHtt3Hg:1778889553599&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8Smpdp-CLrzmu1zPWujwZtnTngOWG-YmCRh5L_45-P5tx5GnvgFlZD_LXnW4JrjOErgq-IqjkKjJf7gYyiZYQLCl_JSJMflxLrzmbty6uUZkEUObYA&q=amazon+%22B0BKL64XZP%22+KitHero+magnetic+spice+rack+24+jars+rating+reviews+stars&ved=1t:220175&ictx=111
+              - generic [ref=e89]: Shopping
+          - listitem [ref=e90]:
+            - link "Images" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n7BuB5ZifgdanqUHy_gxoFaHtt3Hg:1778889553599&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8Smpdp-CLrzmu1zPWujwZtnTngOWG-YmCRh5L_45-P5tx5GnvgFlZD_LXnW4JrjOErgq-IqjkKjJf7gYyiZYQLCl_JSJMflxLrzmbty6uUZkEUObYA&q=amazon+%22B0BKL64XZP%22+KitHero+magnetic+spice+rack+24+jars+rating+reviews+stars&sa=X&ved=2ahUKEwjBnb__v7yUAxU378kDHQHXHGMQtKgLegQIEhAB
+              - generic [ref=e93]: Images
+          - listitem [ref=e94]:
+            - link "Short videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n7BuB5ZifgdanqUHy_gxoFaHtt3Hg:1778889553599&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8Smpdp-CLrzmu1zPWujwZtnTngOWG-YmCRh5L_45-P5tx5GnvgFlZD_LXnW4JrjOErgq-IqjkKjJf7gYyiZYQLCl_JSJMflxLrzmbty6uUZkEUObYA&q=amazon+%22B0BKL64XZP%22+KitHero+magnetic+spice+rack+24+jars+rating+reviews+stars&sa=X&ved=2ahUKEwjBnb__v7yUAxU378kDHQHXHGMQs6gLegQIExAB
+              - generic [ref=e97]: Short videos
+          - listitem [ref=e98]:
+            - link "Videos" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n7BuB5ZifgdanqUHy_gxoFaHtt3Hg:1778889553599&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8Smpdp-CLrzmu1zPWujwZtnTngOWG-YmCRh5L_45-P5tx5GnvgFlZD_LXnW4JrjOErgq-IqjkKjJf7gYyiZYQLCl_JSJMflxLrzmbty6uUZkEUObYA&q=amazon+%22B0BKL64XZP%22+KitHero+magnetic+spice+rack+24+jars+rating+reviews+stars&sa=X&ved=2ahUKEwjBnb__v7yUAxU378kDHQHXHGMQtKgLegQIFBAB
+              - generic [ref=e101]: Videos
+          - listitem [ref=e102]:
+            - link "Forums" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n7BuB5ZifgdanqUHy_gxoFaHtt3Hg:1778889553599&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NhC4w0M3ufU0kzEnqVSAv8Smpdp-CLrzmu1zPWujwZtnTngOWG-YmCRh5L_45-P5tx5GnvgFlZD_LXnW4JrjOErgq-IqjkKjJf7gYyiZYQLCl_JSJMflxLrzmbty6uUZkEUObYA&q=amazon+%22B0BKL64XZP%22+KitHero+magnetic+spice+rack+24+jars+rating+reviews+stars&sa=X&ved=2ahUKEwjBnb__v7yUAxU378kDHQHXHGMQs6gLegQIFRAB
+              - generic [ref=e105]: Forums
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e134]:
+        - heading "Home Manchester, NH 03103" [level=2] [ref=e135]:
+          - img [ref=e138]:
+            - img [ref=e139]
+          - generic [ref=e141]:
+            - generic [ref=e143]: Home
+            - text: Manchester, NH 03103
+        - generic [ref=e144]:
+          - text: ∙
+          - button "Choose area" [ref=e145] [cursor=pointer]
+        - button "How location is used" [ref=e148] [cursor=pointer]:
+          - img [ref=e150]
+      - generic [ref=e155]:
+        - generic [ref=e158]:
+          - heading "Web results" [level=2] [ref=e159]
+          - generic [ref=e160]:
+            - generic [ref=e163]:
+              - link "KitHero Magnetic Spice Rack with 24 Jars, 216 Labels, 1 ... Amazon.com https://www.amazon.com › B0BKL64XZP" [ref=e165] [cursor=pointer]:
+                - /url: https://www.amazon.com/KitHero-Magnetic-Labels-Funnel-Refrigerator%EF%BC%8CMicrowave/dp/B0BKL64XZP
+                - heading "KitHero Magnetic Spice Rack with 24 Jars, 216 Labels, 1 ..." [level=3] [ref=e166]
+                - generic [ref=e171]:
+                  - generic [ref=e173]: Amazon.com
+                  - generic [ref=e175]: https://www.amazon.com › B0BKL64XZP
+              - button "About this result" [ref=e176] [cursor=pointer]:
+                - img [ref=e179]
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - text: "#126 in"
+                - emphasis [ref=e184]: Spice Racks
+                - text: . ASIN,
+                - emphasis [ref=e185]: B0BKL64XZP
+                - text: . Materials & Care. Material Type, Stainless Steel, Wood. Finish Types, Polished. Style. Color,
+                - emphasis [ref=e186]: "24"
+                - text: Silver-Cap
+                - emphasis [ref=e187]: Jars
+                - text: . Style ...
+              - link "Read more" [ref=e188] [cursor=pointer]:
+                - /url: https://www.amazon.com/KitHero-Magnetic-Labels-Funnel-Refrigerator%EF%BC%8CMicrowave/dp/B0BKL64XZP#:~:text=Product%20image%20gallery
+            - link "amazon \"B0BKL64XZP\" KitHero magnetic spice rack 24 jars rating reviews stars from www.amazon.com" [ref=e191] [cursor=pointer]:
+              - /url: https://www.amazon.com/KitHero-Magnetic-Labels-Funnel-Refrigerator%EF%BC%8CMicrowave/dp/B0BKL64XZP
+              - img "amazon \"B0BKL64XZP\" KitHero magnetic spice rack 24 jars rating reviews stars from www.amazon.com" [ref=e193]
+        - generic [ref=e197]:
+          - generic [ref=e200]:
+            - link "KitHero Magnetic Spice Rack with 24 Jars, 216 Labels ... Amazon.com.be https://www.amazon.com.be › B0BKL64XZP" [ref=e202] [cursor=pointer]:
+              - /url: https://www.amazon.com.be/-/en/KitHero-Magnetic-Labels-Refrigerator-Microwave/dp/B0BKL64XZP
+              - heading "KitHero Magnetic Spice Rack with 24 Jars, 216 Labels ..." [level=3] [ref=e203]
+              - generic [ref=e208]:
+                - generic [ref=e210]: Amazon.com.be
+                - generic [ref=e212]: https://www.amazon.com.be › B0BKL64XZP
+            - button "About this result" [ref=e213] [cursor=pointer]:
+              - img [ref=e216]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - emphasis [ref=e221]: B0BKL64XZP
+              - text: .
+              - emphasis [ref=e222]: Customer Reviews
+              - text: ", 4.7 out of 5"
+              - emphasis [ref=e223]: stars
+              - text: 1,063
+              - emphasis [ref=e224]: Reviews
+              - text: . Material, Glass ... How
+              - emphasis [ref=e225]: customer reviews
+              - text: and
+              - emphasis [ref=e226]: ratings
+              - text: work.
+              - emphasis [ref=e227]: Customer Reviews
+              - text: ", including Product"
+              - emphasis [ref=e228]: Star
+              - text: ...
+            - link "Read more" [ref=e229] [cursor=pointer]:
+              - /url: https://www.amazon.com.be/-/en/KitHero-Magnetic-Labels-Refrigerator-Microwave/dp/B0BKL64XZP#:~:text=Product%20image%20gallery&text=How%20customer%20reviews%20and%20ratings,the%20right%20product%20for%20them.
+          - link "amazon \"B0BKL64XZP\" KitHero magnetic spice rack 24 jars rating reviews stars from www.amazon.com.be" [ref=e232] [cursor=pointer]:
+            - /url: https://www.amazon.com.be/-/en/KitHero-Magnetic-Labels-Refrigerator-Microwave/dp/B0BKL64XZP
+            - img "amazon \"B0BKL64XZP\" KitHero magnetic spice rack 24 jars rating reviews stars from www.amazon.com.be" [ref=e234]
+          - generic [ref=e236]:
+            - generic [ref=e237]: €115.59
+            - text: ·
+            - generic [ref=e238]: In stock
+            - text: ·
+            - img "Rated 4.7 out of 5, (1,063) user reviews" [ref=e244]:
+              - text: "4.7"
+              - img [ref=e245]
+              - text: (1,063)
+        - generic [ref=e251]:
+          - generic [ref=e254]:
+            - link "Magnetic Spice Rack With 24 Jars 216 Labels 1 Steel Desertcart https://www.desertcart.in › products › 498631497-mag..." [ref=e256] [cursor=pointer]:
+              - /url: https://www.desertcart.in/products/498631497-magnetic-spice-rack-with-24-jars-216-labels-1-steel
+              - heading "Magnetic Spice Rack With 24 Jars 216 Labels 1 Steel" [level=3] [ref=e257]
+              - generic [ref=e262]:
+                - generic [ref=e264]: Desertcart
+                - generic [ref=e266]: https://www.desertcart.in › products › 498631497-mag...
+            - button "About this result" [ref=e267] [cursor=pointer]:
+              - img [ref=e270]
+          - generic [ref=e273]:
+            - generic [ref=e274]:
+              - text: Specifications. ASIN,
+              - emphasis [ref=e275]: B0BKL64XZP
+              - text: . Additional Features,
+              - emphasis [ref=e276]: Magnetic
+              - text: Shelves with ...
+              - emphasis [ref=e277]: Customer Reviews
+              - text: ", 4.7 4.7 out of 5"
+              - emphasis [ref=e278]: stars
+              - text: (837). Finish Types, Polished.
+            - link "Read more" [ref=e279] [cursor=pointer]:
+              - /url: https://www.desertcart.in/products/498631497-magnetic-spice-rack-with-24-jars-216-labels-1-steel#:~:text=Specifications,Shelves%20with%20Jars%20and%20Labels&text=Customer%20Reviews,Polished
+          - link "amazon \"B0BKL64XZP\" KitHero magnetic spice rack 24 jars rating reviews stars from www.desertcart.in" [ref=e282] [cursor=pointer]:
+            - /url: https://www.desertcart.in/products/498631497-magnetic-spice-rack-with-24-jars-216-labels-1-steel
+            - img "amazon \"B0BKL64XZP\" KitHero magnetic spice rack 24 jars rating reviews stars from www.desertcart.in" [ref=e284]
+          - generic [ref=e286]:
+            - generic [ref=e287]: ₹14,010.00
+            - text: ·
+            - img "Rated 4.9 out of 5, (13) user reviews" [ref=e291]:
+              - text: "4.9"
+              - img [ref=e292]
+              - text: (13)
+            - text: ·
+            - generic [ref=e295]: 14-day returns
+        - generic [ref=e299]:
+          - heading "Images" [level=2] [ref=e303]
+          - generic [ref=e307]:
+            - generic [ref=e311] [cursor=pointer]:
+              - 'link "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ... Amazon.com"':
+                - /url: https://www.amazon.com/KitHero-Magnetic-Labels-Funnel-Refrigerator%EF%BC%8CMicrowave/dp/B0BKL64XZP
+              - 'button "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ..." [ref=e313]':
+                - 'img "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ..." [ref=e315]'
+              - generic [ref=e317]:
+                - generic [ref=e319]: "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ..."
+                - generic [ref=e320]:
+                  - generic [ref=e327]: Amazon.com
+                  - button "About this result" [ref=e330]:
+                    - img [ref=e333]
+            - generic [ref=e338] [cursor=pointer]:
+              - 'link "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ... Amazon.com"':
+                - /url: https://www.amazon.com/KitHero-Magnetic-Labels-Funnel-Refrigerator%EF%BC%8CMicrowave/dp/B0BKL64XZP
+              - 'button "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ..." [ref=e340]':
+                - 'img "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ..." [ref=e342]'
+              - generic [ref=e344]:
+                - generic [ref=e346]: "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ..."
+                - generic [ref=e347]:
+                  - generic [ref=e354]: Amazon.com
+                  - button "About this result" [ref=e357]:
+                    - img [ref=e360]
+            - generic [ref=e365] [cursor=pointer]:
+              - 'link "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ... Amazon.com"':
+                - /url: https://www.amazon.com/KitHero-Magnetic-Labels-Funnel-Refrigerator%EF%BC%8CMicrowave/dp/B0BKL64XZP
+              - 'button "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ..." [ref=e367]':
+                - 'img "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ..." [ref=e369]'
+              - generic [ref=e371]:
+                - generic [ref=e373]: "Amazon.com: KitHero Magnetic Spice Rack with 24 Jars, 216 ..."
+                - generic [ref=e374]:
+                  - generic [ref=e381]: Amazon.com
+                  - button "About this result" [ref=e384]:
+                    - img [ref=e387]
+          - button "Show more images" [ref=e390] [cursor=pointer]:
+            - separator [ref=e391]
+            - generic [ref=e392]:
+              - generic [ref=e393]: Show more images
+              - img [ref=e395]
+        - generic [ref=e401]:
+          - heading "People also ask" [level=2] [ref=e403]
+          - generic [ref=e404]:
+            - button "What is the best spice rack to buy?" [ref=e410] [cursor=pointer]:
+              - generic [ref=e412]: What is the best spice rack to buy?
+              - img [ref=e415]
+            - button "Do magnetic spice racks work?" [ref=e424] [cursor=pointer]:
+              - generic [ref=e426]: Do magnetic spice racks work?
+              - img [ref=e429]
+      - generic [ref=e433]:
+        - generic [ref=e434]:
+          - heading "Notices about Filtered Results" [level=2] [ref=e435]
+          - paragraph [ref=e437]:
+            - generic [ref=e438]:
+              - text: In order to show you the most relevant results, we have omitted some entries very similar to the 3 already displayed.
+              - text: If you like, you can
+              - link "repeat the search with the omitted results included" [ref=e439] [cursor=pointer]:
+                - /url: /search?q=amazon+%22B0BKL64XZP%22+KitHero+magnetic+spice+rack+24+jars+rating+reviews+stars&sca_esv=2aaede6942444870&sxsrf=ANbL-n7BuB5ZifgdanqUHy_gxoFaHtt3Hg:1778889553599&filter=0
+              - text: .
+        - navigation
+      - navigation
+    - contentinfo [ref=e440]:
+      - heading "Footer Links" [level=1] [ref=e441]
+      - generic [ref=e445]:
+        - generic [ref=e448]:
+          - generic [ref=e449]: Results are personalized
+          - generic [ref=e450]: "-"
+          - link "Try without personalization" [ref=e452] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=amazon+%22B0BKL64XZP%22+KitHero+magnetic+spice+rack+24+jars+rating+reviews+stars&peek_pws=0&sxsrf=ANbL-n7BuB5ZifgdanqUHy_gxoFaHtt3Hg:1778889553599
+            - generic [ref=e453]: Try without personalization
+        - generic [ref=e457]:
+          - button "03103, Manchester, NH - Based on your places (Home)" [ref=e459] [cursor=pointer]:
+            - generic [ref=e460]: 03103, Manchester, NH
+            - generic [ref=e462]:
+              - text: "-"
+              - generic [ref=e463]: Based on your places (Home)
+          - text: "-"
+          - button "Update location" [ref=e465] [cursor=pointer]: Update location
+        - generic [ref=e468]:
+          - link "Help" [ref=e469] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e470] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e471] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e472] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

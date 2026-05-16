@@ -1,0 +1,57 @@
+[     161ms] TypeError: Cannot read properties of null (reading 'contentState')
+    at e.get [as contentState] (blob:https://www.amazon.com/1346cd33-cb8b-41eb-9e53-284fcfd64237:2:4567445)
+    at e.unload (blob:https://www.amazon.com/1346cd33-cb8b-41eb-9e53-284fcfd64237:2:4793152)
+    at e.destroy (blob:https://www.amazon.com/1346cd33-cb8b-41eb-9e53-284fcfd64237:2:4852842)
+    at e.destroy (blob:https://www.amazon.com/1346cd33-cb8b-41eb-9e53-284fcfd64237:2:4935927)
+    at onPageHide (blob:https://www.amazon.com/1346cd33-cb8b-41eb-9e53-284fcfd64237:2:4933788)
+[     163ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     165ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     166ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     961ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[     973ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     974ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     997ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[    1011ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1012ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1016ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[    1029ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    1030ms] [WARNING] No client strategy found. Metrics will not be enabled. @ https://m.media-amazon.com/images/I/911U-Fct8AL.js:26
+[    1016ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[    1029ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    1578ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[    1584ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1585ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1617ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1016ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[    1029ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    1703ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[    1016ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[    1029ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    1720ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1741ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[    1750ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1751ms] [ERROR] Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED @ https://www.amazon.com/tt/i:0
+[    1751ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1764ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1764ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1765ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    2060ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    2068ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    2072ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    2076ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    2080ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    2085ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    3099ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    3100ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    3103ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    3104ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    3105ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    4142ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[    4145ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    4145ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    4221ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[    4243ms] [ERROR] Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED @ https://www.amazon.com/tt/i:0
+[    4244ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    4245ms] [WARNING] No client strategy found. Metrics will not be enabled. @ https://m.media-amazon.com/images/I/911U-Fct8AL.js:26
+[    4419ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4854ms] [LOG] totalDuration:  15 @ https://cdn.flashtalking.com/157924/5759914/assets/script.js:310

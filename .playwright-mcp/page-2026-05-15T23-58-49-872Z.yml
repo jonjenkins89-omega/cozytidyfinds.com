@@ -1,0 +1,194 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwivr930v7yUAxXHnysGHYSJHWoQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"B0CN93GN6Z\" amazon bamboo drawer organizer rating reviews \"B0CN93GN6Z\" amazon bamboo drawer organizer rating reviews"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - link "Search Labs" [ref=e49] [cursor=pointer]:
+        - /url: https://labs.google.com/search?source=srp
+        - img [ref=e50]
+      - button "Google apps" [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - 'button "Google Account: Jonathan Jenkins (jonjenkins89@gmail.com)" [ref=e58] [cursor=pointer]':
+        - img [ref=e59]
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22B0CN93GN6Z%22+amazon+bamboo+drawer+organizer+rating+reviews&sca_esv=2aaede6942444870&sxsrf=ANbL-n51ybPBqQNLte-zqNto6i-W6wQ10w:1778889531024&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mCdteDOdu-whizqull19J68LpFak9CUWU7y9RhOM0f-XkTR5KCH36qDy7z-_cDrH1nWTDcjdcks0cj_E-b1F1_xnM83O52Y2r5B4uNMO9zXPSNd7dcsEFIlrOV4lDNGAkAeUOGJ0NcQsHdQgjK7-Sq5h4AGoEELQ_wExqCfHKI3aaQTbow&aep=1&ntc=1&sa=X&ved=2ahUKEwivr930v7yUAxXHnysGHYSJHWoQ2J8OegQIDxAD
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Shopping" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n51ybPBqQNLte-zqNto6i-W6wQ10w:1778889531024&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mCdteDOdu-whizqull19J68LpFak9CUWU7y9RhOM0f-XkTR5KCH36qDy7z-_cDrH1nWTDcjdcks0cj_E-b1F1_xnM83O52Y2r5B4uNMO9zXPSNd7dcsEFIlrOV4lDNGAkAeUOGJ0NcQsHdQgjK7-Sq5h4AGoEELQ_wExqCfHKI3aaQTbow&q=%22B0CN93GN6Z%22+amazon+bamboo+drawer+organizer+rating+reviews&ved=1t:220175&ictx=111
+              - generic [ref=e89]: Shopping
+          - listitem [ref=e90]:
+            - link "Short videos" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n51ybPBqQNLte-zqNto6i-W6wQ10w:1778889531024&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mCdteDOdu-whizqull19J68LpFak9CUWU7y9RhOM0f-XkTR5KCH36qDy7z-_cDrH1nWTDcjdcks0cj_E-b1F1_xnM83O52Y2r5B4uNMO9zXPSNd7dcsEFIlrOV4lDNGAkAeUOGJ0NcQsHdQgjK7-Sq5h4AGoEELQ_wExqCfHKI3aaQTbow&q=%22B0CN93GN6Z%22+amazon+bamboo+drawer+organizer+rating+reviews&sa=X&ved=2ahUKEwivr930v7yUAxXHnysGHYSJHWoQs6gLegQIExAB
+              - generic [ref=e93]: Short videos
+          - listitem [ref=e94]:
+            - link "Videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n51ybPBqQNLte-zqNto6i-W6wQ10w:1778889531024&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mCdteDOdu-whizqull19J68LpFak9CUWU7y9RhOM0f-XkTR5KCH36qDy7z-_cDrH1nWTDcjdcks0cj_E-b1F1_xnM83O52Y2r5B4uNMO9zXPSNd7dcsEFIlrOV4lDNGAkAeUOGJ0NcQsHdQgjK7-Sq5h4AGoEELQ_wExqCfHKI3aaQTbow&q=%22B0CN93GN6Z%22+amazon+bamboo+drawer+organizer+rating+reviews&sa=X&ved=2ahUKEwivr930v7yUAxXHnysGHYSJHWoQtKgLegQIEhAB
+              - generic [ref=e97]: Videos
+          - listitem [ref=e98]:
+            - link "Images" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n51ybPBqQNLte-zqNto6i-W6wQ10w:1778889531024&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mCdteDOdu-whizqull19J68LpFak9CUWU7y9RhOM0f-XkTR5KCH36qDy7z-_cDrH1nWTDcjdcks0cj_E-b1F1_xnM83O52Y2r5B4uNMO9zXPSNd7dcsEFIlrOV4lDNGAkAeUOGJ0NcQsHdQgjK7-Sq5h4AGoEELQ_wExqCfHKI3aaQTbow&q=%22B0CN93GN6Z%22+amazon+bamboo+drawer+organizer+rating+reviews&sa=X&ved=2ahUKEwivr930v7yUAxXHnysGHYSJHWoQtKgLegQIERAB
+              - generic [ref=e101]: Images
+          - listitem [ref=e102]:
+            - link "Forums" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n51ybPBqQNLte-zqNto6i-W6wQ10w:1778889531024&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mCdteDOdu-whizqull19J68LpFak9CUWU7y9RhOM0f-XkTR5KCH36qDy7z-_cDrH1nWTDcjdcks0cj_E-b1F1_xnM83O52Y2r5B4uNMO9zXPSNd7dcsEFIlrOV4lDNGAkAeUOGJ0NcQsHdQgjK7-Sq5h4AGoEELQ_wExqCfHKI3aaQTbow&q=%22B0CN93GN6Z%22+amazon+bamboo+drawer+organizer+rating+reviews&sa=X&ved=2ahUKEwivr930v7yUAxXHnysGHYSJHWoQs6gLegQIFRAB
+              - generic [ref=e105]: Forums
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "Teicui bamboo drawer organizer Set,expandable ... Amazon.com https://www.amazon.com › B0CN93GN6Z" [ref=e142] [cursor=pointer]:
+                - /url: https://www.amazon.com/Teicui-5-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z
+                - heading "Teicui bamboo drawer organizer Set,expandable ..." [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Amazon.com
+                  - generic [ref=e152]: https://www.amazon.com › B0CN93GN6Z
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - emphasis [ref=e161]: Amazon's
+                - text: Choice highlights highly
+                - emphasis [ref=e162]: rated
+                - text: ", well-priced products available to ship immediately. ..."
+                - emphasis [ref=e163]: B0CN93GN6Z
+                - text: . Measurements. Item Dimensions D x W x H, 15"D x 13"W ...
+              - link "Read more" [ref=e164] [cursor=pointer]:
+                - /url: https://www.amazon.com/Teicui-5-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z#:~:text=Amazon's%20Choice&text=Product%20image%20gallery
+        - generic [ref=e169]:
+          - heading "People also ask" [level=2] [ref=e171]
+          - generic [ref=e172]:
+            - button "What is the best drawer organizer?" [ref=e178] [cursor=pointer]:
+              - generic [ref=e180]: What is the best drawer organizer?
+              - img [ref=e183]
+            - button "Is a bamboo cutlery tray better than plastic?" [ref=e192] [cursor=pointer]:
+              - generic [ref=e194]: Is a bamboo cutlery tray better than plastic?
+              - img [ref=e197]
+            - button "Is bamboo good for drawers?" [ref=e206] [cursor=pointer]:
+              - generic [ref=e208]: Is bamboo good for drawers?
+              - img [ref=e211]
+            - button "Are drawer organisers worth it?" [ref=e220] [cursor=pointer]:
+              - generic [ref=e222]: Are drawer organisers worth it?
+              - img [ref=e225]
+        - generic [ref=e231]:
+          - heading "Images" [level=2] [ref=e235]
+          - generic [ref=e239]:
+            - generic [ref=e243] [cursor=pointer]:
+              - link "Teicui bamboo drawer organizer Set ... - Amazon.com Amazon.com":
+                - /url: https://www.amazon.com/Teicui-5-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z
+              - button "Teicui bamboo drawer organizer Set ... - Amazon.com" [ref=e245]:
+                - img "Teicui bamboo drawer organizer Set ... - Amazon.com" [ref=e247]
+              - generic [ref=e249]:
+                - generic [ref=e251]: Teicui bamboo drawer organizer Set ... - Amazon.com
+                - generic [ref=e252]:
+                  - generic [ref=e259]: Amazon.com
+                  - button "About this result" [ref=e262]:
+                    - img [ref=e265]
+            - generic [ref=e270] [cursor=pointer]:
+              - link "Amazon.com - Teicui bamboo drawer organizer Set,expandable ... Amazon.com":
+                - /url: https://www.amazon.com/Teicui-5-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z
+              - button "Amazon.com - Teicui bamboo drawer organizer Set,expandable ..." [ref=e272]:
+                - img "Amazon.com - Teicui bamboo drawer organizer Set,expandable ..." [ref=e274]
+              - generic [ref=e276]:
+                - generic [ref=e278]: Amazon.com - Teicui bamboo drawer organizer Set,expandable ...
+                - generic [ref=e279]:
+                  - generic [ref=e286]: Amazon.com
+                  - button "About this result" [ref=e289]:
+                    - img [ref=e292]
+            - generic [ref=e297] [cursor=pointer]:
+              - link "Amazon.com - Teicui bamboo drawer organizer Set,expandable ... Amazon.com":
+                - /url: https://www.amazon.com/Teicui-5-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z
+              - button "Amazon.com - Teicui bamboo drawer organizer Set,expandable ..." [ref=e299]:
+                - img "Amazon.com - Teicui bamboo drawer organizer Set,expandable ..." [ref=e301]
+              - generic [ref=e303]:
+                - generic [ref=e305]: Amazon.com - Teicui bamboo drawer organizer Set,expandable ...
+                - generic [ref=e306]:
+                  - generic [ref=e313]: Amazon.com
+                  - button "About this result" [ref=e316]:
+                    - img [ref=e319]
+          - button "Show more images" [ref=e322] [cursor=pointer]:
+            - separator [ref=e323]
+            - generic [ref=e324]:
+              - generic [ref=e325]: Show more images
+              - img [ref=e327]
+      - generic [ref=e330]:
+        - generic [ref=e331]:
+          - heading "Notices about Filtered Results" [level=2] [ref=e332]
+          - paragraph [ref=e334]:
+            - generic [ref=e335]:
+              - text: In order to show you the most relevant results, we have omitted some entries very similar to the 1 already displayed.
+              - text: If you like, you can
+              - link "repeat the search with the omitted results included" [ref=e336] [cursor=pointer]:
+                - /url: /search?q=%22B0CN93GN6Z%22+amazon+bamboo+drawer+organizer+rating+reviews&sca_esv=2aaede6942444870&sxsrf=ANbL-n51ybPBqQNLte-zqNto6i-W6wQ10w:1778889531024&filter=0
+              - text: .
+        - navigation
+      - navigation
+    - contentinfo [ref=e337]:
+      - heading "Footer Links" [level=1] [ref=e338]
+      - generic [ref=e342]:
+        - generic [ref=e345]:
+          - generic [ref=e346]: Results are personalized
+          - generic [ref=e347]: "-"
+          - link "Try without personalization" [ref=e349] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=%22B0CN93GN6Z%22+amazon+bamboo+drawer+organizer+rating+reviews&peek_pws=0&sxsrf=ANbL-n51ybPBqQNLte-zqNto6i-W6wQ10w:1778889531024
+            - generic [ref=e350]: Try without personalization
+        - generic [ref=e354]:
+          - button "03103, Manchester, NH - Based on your places (Home)" [ref=e356] [cursor=pointer]:
+            - generic [ref=e357]: 03103, Manchester, NH
+            - generic [ref=e359]:
+              - text: "-"
+              - generic [ref=e360]: Based on your places (Home)
+          - text: "-"
+          - button "Update location" [ref=e362] [cursor=pointer]: Update location
+        - generic [ref=e365]:
+          - link "Help" [ref=e366] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e367] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e368] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e369] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

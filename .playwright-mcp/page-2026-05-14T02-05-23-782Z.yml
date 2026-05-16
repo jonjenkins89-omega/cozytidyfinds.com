@@ -1,0 +1,408 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global Navigation Menu" [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - button "Open menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+          - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Breadcrumbs" [ref=e19]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "jonjenkins89-omega" [ref=e22] [cursor=pointer]:
+                  - /url: /jonjenkins89-omega
+                  - generic [ref=e23]: jonjenkins89-omega
+              - listitem [ref=e24]:
+                - link "cozytidyfinds.com" [ref=e25] [cursor=pointer]:
+                  - /url: /jonjenkins89-omega/cozytidyfinds.com
+                  - generic [ref=e26]: cozytidyfinds.com
+          - button "Search or jump to…" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]:
+              - generic:
+                - img
+              - generic [ref=e31]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e36]:
+              - link "Chat with Copilot" [ref=e38] [cursor=pointer]:
+                - /url: /copilot
+                - img [ref=e39]
+              - button "Open Copilot…" [ref=e43] [cursor=pointer]:
+                - generic:
+                  - img
+            - button "Create new..." [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]:
+                - generic:
+                  - img
+              - generic:
+                - img
+            - generic [ref=e47]:
+              - link "All issues" [ref=e48] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=e49]
+              - link "All pull requests" [ref=e52] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=e53]
+              - link "All repositories" [ref=e55] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=e56]
+          - link "You have no unread notifications (g then n)" [ref=e58] [cursor=pointer]:
+            - /url: /notifications
+            - img [ref=e59]
+          - button "Open user navigation menu" [ref=e62] [cursor=pointer]:
+            - img "User avatar" [ref=e63]
+      - heading "Repository navigation" [level=2] [ref=e64]
+      - navigation "Repository" [ref=e65]:
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "Code" [ref=e68] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com
+              - img [ref=e70]
+              - generic [ref=e72]: Code
+          - listitem [ref=e73]:
+            - link "Issues" [ref=e74] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/issues
+              - img [ref=e76]
+              - generic [ref=e79]: Issues
+          - listitem [ref=e80]:
+            - link "Pull requests" [ref=e81] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/pulls
+              - img [ref=e83]
+              - generic [ref=e85]: Pull requests
+          - listitem [ref=e86]:
+            - link "Actions" [ref=e87] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/actions
+              - img [ref=e89]
+              - generic [ref=e91]: Actions
+          - listitem [ref=e92]:
+            - link "Projects" [ref=e93] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/projects
+              - img [ref=e95]
+              - generic [ref=e97]: Projects
+          - listitem [ref=e98]:
+            - link "Wiki" [ref=e99] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/wiki
+              - img [ref=e101]
+              - generic [ref=e103]: Wiki
+          - listitem [ref=e104]:
+            - link "Security and quality" [ref=e105] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/security
+              - img [ref=e107]
+              - generic [ref=e109]: Security and quality
+          - listitem [ref=e110]:
+            - link "Insights" [ref=e111] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/pulse
+              - img [ref=e113]
+              - generic [ref=e115]: Insights
+          - listitem [ref=e116]:
+            - link "Settings" [ref=e117] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/settings
+              - img [ref=e119]
+              - generic [ref=e121]: Settings
+  - main [ref=e124]:
+    - generic [ref=e126]:
+      - 'heading "Settings: jonjenkins89-omega/cozytidyfinds.com" [level=1] [ref=e127]'
+      - generic [ref=e129]:
+        - navigation "General settings" [ref=e132]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "General" [ref=e136] [cursor=pointer]:
+                - /url: /jonjenkins89-omega/cozytidyfinds.com/settings
+                - generic:
+                  - img
+                - generic [ref=e137]: General
+            - listitem [ref=e138]
+            - listitem [ref=e139]:
+              - generic [ref=e142]:
+                - heading "Access" [level=2] [ref=e144]
+                - list "Access" [ref=e145]:
+                  - listitem [ref=e146]:
+                    - link "Collaborators" [ref=e147] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/access
+                      - generic:
+                        - img
+                      - generic [ref=e148]: Collaborators
+                  - listitem [ref=e149]:
+                    - button "Moderation options" [ref=e150] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e151]: Moderation options
+                      - generic:
+                        - img
+            - listitem [ref=e152]
+            - listitem [ref=e153]:
+              - generic [ref=e156]:
+                - heading "Code and automation" [level=2] [ref=e158]
+                - list "Code and automation" [ref=e159]:
+                  - listitem [ref=e160]:
+                    - link "Branches" [ref=e161] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/branches
+                      - generic:
+                        - img
+                      - generic [ref=e162]: Branches
+                  - listitem [ref=e163]:
+                    - link "Tags" [ref=e164] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/tag_protection
+                      - generic:
+                        - img
+                      - generic [ref=e165]: Tags
+                  - listitem [ref=e166]:
+                    - button "Rules" [ref=e167] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e168]: Rules
+                      - generic:
+                        - img
+                  - listitem [ref=e169]:
+                    - button "Actions" [ref=e170] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e171]: Actions
+                      - generic:
+                        - img
+                  - listitem [ref=e172]:
+                    - link "Models Preview feature" [ref=e173] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/models/access-policy
+                      - generic:
+                        - img
+                      - generic [ref=e174]: Models
+                      - generic:
+                        - generic "Preview feature": Preview
+                  - listitem [ref=e175]:
+                    - link "Webhooks" [ref=e176] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/hooks
+                      - generic:
+                        - img
+                      - generic [ref=e177]: Webhooks
+                  - listitem [ref=e178]:
+                    - button "Copilot" [ref=e179] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e180]: Copilot
+                      - generic:
+                        - img
+                  - listitem [ref=e181]:
+                    - link "Environments" [ref=e182] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/environments
+                      - generic:
+                        - img
+                      - generic [ref=e183]: Environments
+                  - listitem [ref=e184]:
+                    - link "Codespaces" [ref=e185] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/codespaces
+                      - generic:
+                        - img
+                      - generic [ref=e186]: Codespaces
+                  - listitem [ref=e187]:
+                    - link "Pages" [ref=e188] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/pages
+                      - generic:
+                        - img
+                      - generic [ref=e189]: Pages
+            - listitem [ref=e190]
+            - listitem [ref=e191]:
+              - generic [ref=e194]:
+                - heading "Security and quality" [level=2] [ref=e196]
+                - list "Security and quality" [ref=e197]:
+                  - listitem [ref=e198]:
+                    - link "Advanced Security" [ref=e199] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/security_analysis
+                      - generic:
+                        - img
+                      - generic [ref=e200]: Advanced Security
+                  - listitem [ref=e201]:
+                    - link "Deploy keys" [ref=e202] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/keys
+                      - generic:
+                        - img
+                      - generic [ref=e203]: Deploy keys
+                  - listitem [ref=e204]:
+                    - button "Secrets and variables" [ref=e205] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e206]: Secrets and variables
+                      - generic:
+                        - img
+            - listitem [ref=e207]
+            - listitem [ref=e208]:
+              - generic [ref=e211]:
+                - heading "Integrations" [level=2] [ref=e213]
+                - list "Integrations" [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "GitHub Apps" [ref=e216] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/installations
+                      - generic:
+                        - img
+                      - generic [ref=e217]: GitHub Apps
+                  - listitem [ref=e218]:
+                    - link "Email notifications" [ref=e219] [cursor=pointer]:
+                      - /url: /jonjenkins89-omega/cozytidyfinds.com/settings/notifications
+                      - generic:
+                        - img
+                      - generic [ref=e220]: Email notifications
+        - generic [ref=e223]:
+          - heading "GitHub Pages" [level=2] [ref=e225]
+          - paragraph [ref=e226]:
+            - link "GitHub Pages" [ref=e227] [cursor=pointer]:
+              - /url: https://pages.github.com
+            - text: is designed to host your personal, organization, or project pages from a GitHub repository.
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - text: Your site is live at
+                - link "http://cozytidyfinds.com/" [ref=e231] [cursor=pointer]:
+                  - /url: http://cozytidyfinds.com/
+              - generic [ref=e232]:
+                - text: Last
+                - link "deployed" [ref=e233] [cursor=pointer]:
+                  - /url: /jonjenkins89-omega/cozytidyfinds.com/actions/runs/25836712901
+                - text: by
+                - img "@jonjenkins89-omega" [ref=e234]
+                - link "jonjenkins89-omega" [ref=e235] [cursor=pointer]:
+                  - /url: /jonjenkins89-omega
+                - text: May 13, 2026 21:4321 minutes ago
+            - generic [ref=e236]:
+              - link "Visit site" [ref=e237] [cursor=pointer]:
+                - /url: http://cozytidyfinds.com/
+                - img [ref=e238]
+                - text: Visit site
+              - button "Unpublish site" [ref=e240] [cursor=pointer]:
+                - generic [ref=e242]: Unpublish site
+          - heading "Build and deployment" [level=2] [ref=e243]
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - text: Source
+              - button "Source Deploy from a branch" [ref=e249] [cursor=pointer]:
+                - generic [ref=e251]: Deploy from a branch
+                - generic:
+                  - img
+            - generic [ref=e254]:
+              - strong [ref=e255]: Branch
+              - paragraph [ref=e256]:
+                - text: Your GitHub Pages site is currently being built from the
+                - code [ref=e257]: main
+                - text: branch.
+                - link "Learn more about configuring the publishing source for your site" [ref=e258] [cursor=pointer]:
+                  - /url: https://docs.github.com/articles/configuring-a-publishing-source-for-github-pages/
+                - text: .
+              - generic [ref=e259]:
+                - button "main" [ref=e263] [cursor=pointer]:
+                  - generic [ref=e264]:
+                    - generic:
+                      - img
+                    - generic [ref=e265]: main
+                  - generic:
+                    - img
+                - button "/ (root)" [ref=e269] [cursor=pointer]:
+                  - generic [ref=e270]:
+                    - generic:
+                      - img
+                    - generic [ref=e271]: / (root)
+                  - generic:
+                    - img
+                - button "Save" [disabled] [ref=e272]
+              - paragraph [ref=e273]:
+                - text: Learn how to
+                - link "add a Jekyll theme" [ref=e274] [cursor=pointer]:
+                  - /url: https://docs.github.com/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+                - text: to your site.
+          - generic [ref=e275]:
+            - text: Your site was last deployed to the
+            - link "github-pages" [ref=e276] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/deployments?environment=github-pages#activity-log
+            - text: environment by the
+            - link "pages build and deployment" [ref=e278] [cursor=pointer]:
+              - /url: /jonjenkins89-omega/cozytidyfinds.com/actions/runs/25836712901
+            - text: workflow.
+            - paragraph [ref=e279]:
+              - link "Learn more about deploying to GitHub Pages using custom workflows" [ref=e280] [cursor=pointer]:
+                - /url: https://docs.github.com/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
+          - heading "Custom domain" [level=3] [ref=e281]
+          - generic [ref=e352]:
+            - generic [ref=e354]:
+              - term [ref=e355]:
+                - generic [ref=e356]: Custom domain
+                - paragraph [ref=e357]:
+                  - text: Custom domains allow you to serve your site from a domain other than
+                  - code [ref=e358]: jonjenkins89-omega.github.io
+                  - text: .
+                  - link "Learn more about configuring custom domains" [ref=e359] [cursor=pointer]:
+                    - /url: https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site
+                  - text: .
+              - definition [ref=e360]:
+                - generic [ref=e361]:
+                  - textbox "Custom domain" [ref=e363]: cozytidyfinds.com
+                  - generic [ref=e364]:
+                    - button "Save" [disabled] [ref=e365]
+                    - button "Remove" [ref=e366] [cursor=pointer]
+                - paragraph [ref=e367]:
+                  - img [ref=e369]
+                  - generic [ref=e371]: DNS check successful
+            - separator [ref=e372]
+          - generic [ref=e304]:
+            - checkbox "Enforce HTTPS" [checked] [active] [ref=e305]
+            - generic [ref=e306]:
+              - text: Enforce HTTPS
+              - img [ref=e373]
+            - paragraph [ref=e308]:
+              - text: HTTPS provides a layer of encryption that prevents others from snooping on or tampering with traffic to your site.
+              - text: When HTTPS is enforced, your site will only be served over HTTPS.
+              - link "Learn more about securing your GitHub Pages site with HTTPS" [ref=e309] [cursor=pointer]:
+                - /url: https://docs.github.com/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
+              - text: .
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - heading "Visibility" [level=3] [ref=e312]
+              - generic [ref=e313]: GitHub Enterprise
+            - paragraph [ref=e314]:
+              - text: With a GitHub Enterprise account, you can restrict access to your GitHub Pages site by publishing it privately. You can use privately published sites to share your internal documentation or knowledge base with members of your enterprise. You can try GitHub Enterprise risk-free for 30 days.
+              - link "Learn more about the visibility of your GitHub Pages site." [ref=e315] [cursor=pointer]:
+                - /url: https://docs.github.com/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site
+            - link "Start free for 30 days" [ref=e316] [cursor=pointer]:
+              - /url: /account/enterprises/new
+              - generic [ref=e318]: Start free for 30 days
+  - contentinfo [ref=e319]:
+    - heading "Footer" [level=2] [ref=e320]
+    - generic [ref=e321]:
+      - generic [ref=e322]:
+        - link "GitHub Homepage" [ref=e323] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e324]
+        - generic [ref=e326]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e327]:
+        - heading "Footer navigation" [level=3] [ref=e328]
+        - list "Footer navigation" [ref=e329]:
+          - listitem [ref=e330]:
+            - link "Terms" [ref=e331] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e332]:
+            - link "Privacy" [ref=e333] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e334]:
+            - link "Security" [ref=e335] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e336]:
+            - link "Status" [ref=e337] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e338]:
+            - link "Community" [ref=e339] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e340]:
+            - link "Docs" [ref=e341] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e342]:
+            - link "Contact" [ref=e343] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e344]:
+            - button "Manage cookies" [ref=e346] [cursor=pointer]
+          - listitem [ref=e347]:
+            - button "Do not share my personal information" [ref=e349] [cursor=pointer]

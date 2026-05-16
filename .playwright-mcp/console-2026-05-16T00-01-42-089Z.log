@@ -1,0 +1,30 @@
+[     759ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[     789ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[     790ms] [WARNING] [NoriLogger] Logger, campaignElement, or campaignID not available for performance tracking @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[     800ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     802ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[     812ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[     813ms] [WARNING] No client strategy found. Metrics will not be enabled. @ https://m.media-amazon.com/images/I/911U-Fct8AL.js:26
+[     802ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[     812ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    1616ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[    1621ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1622ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     802ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[     812ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    1639ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[     802ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
+[     812ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0
+[    1738ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
+[    1738ms] [ERROR] Failed to load resource: net::ERR_TRUST_TOKEN_OPERATION_FAILED @ https://www.amazon.com/tt/i:0
+[    1743ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1744ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1880ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1895ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
+[    1898ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1908ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1912ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1916ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    1917ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    1919ms] [WARNING] VIDEOJS: WARN: Using hls options is deprecated. Use vhs instead. @ https://m.media-amazon.com/images/I/3175HHgX+OL._RC%7C01x4giTy+uL.js,01r9LpT6pbL.js,41NWBkfooBL.js,11QfrzttlqL.js,91VXiFQ1TCL.js,01ELLYeIOkL.js_.js?AUIClients/Brila:491
+[    3761ms] [ERROR] Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {"m":"ARA:RegisterTriggerResponseError:DPV. Error receiving response from ARAServiceFailed to execute 'json' on 'Response': Unexpected end of JSON input","name":"SyntaxError","csm":"v5 ueLogError stack","logLevel":"ERROR","attribution":"ARARegisterTrigger","pageURL":"https://www.amazon.com/gp/product/B0BNQ56MH5?th=1","f":"https://m.media-amazon.com/images/I/21vARlfe4pL._RC%7C11WTF6kPMoL.js_.js?AUIClients/ARARegisterTriggerSubAssets-dpv","l":"7","s":["SyntaxError: Unexpected end of JSON input","at https://m.media-amazon.com/images/I/21vARlfe4pL._RC%7C11WTF6kPMoL.js_.js?AUIClients/ARARegisterTriggerSubAssets-dpv:7:384"],"t":3581} {m: ARA:RegisterTriggerResponseError:DPV. Error receiv…json' on 'Response': Unexpected end of JSON input, name: SyntaxError, type: undefined, csm: v5 ueLogError stack, logLevel: ERROR} @ https://images-na.ssl-images-amazon.com/images/I/215h87l68bL.js:3

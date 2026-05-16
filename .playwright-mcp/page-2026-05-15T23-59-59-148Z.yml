@@ -1,0 +1,283 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjE1t2VwLyUAxUS48kDHcyRAgsQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: "\"B0CN93GN6Z\" \"out of 5 stars\" reviews \"B0CN93GN6Z\" \"out of 5 stars\" reviews"
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - link "Search Labs" [ref=e49] [cursor=pointer]:
+        - /url: https://labs.google.com/search?source=srp
+        - img [ref=e50]
+      - button "Google apps" [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - 'button "Google Account: Jonathan Jenkins (jonjenkins89@gmail.com)" [ref=e58] [cursor=pointer]':
+        - img [ref=e59]
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22B0CN93GN6Z%22+%22out+of+5+stars%22+reviews&sca_esv=2aaede6942444870&sxsrf=ANbL-n5M4DRtswS0zqwdb66RntEVpKK07A:1778889600236&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYemg2KC4yuMPyQlIvlWqq2AtcdVMJmMDffRprXURy79lwU70Lz2dh0euofCmx0cOkSMUN_9xLa1WY5bR54cNlXeNGNTIGEBWBS4AHaEHunITDBubohheJbfr-zPyq37pAUUqNqfD1HmhD39p6KjzK0vACrrg3Q&aep=1&ntc=1&sa=X&ved=2ahUKEwjE1t2VwLyUAxUS48kDHcyRAgsQ2J8OegQIEBAD
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5M4DRtswS0zqwdb66RntEVpKK07A:1778889600236&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYemg2KC4yuMPyQlIvlWqq2AtcdVMJmMDffRprXURy79lwU70Lz2dh0euofCmx0cOkSMUN_9xLa1WY5bR54cNlXeNGNTIGEBWBS4AHaEHunITDBubohheJbfr-zPyq37pAUUqNqfD1HmhD39p6KjzK0vACrrg3Q&q=%22B0CN93GN6Z%22+%22out+of+5+stars%22+reviews&sa=X&ved=2ahUKEwjE1t2VwLyUAxUS48kDHcyRAgsQtKgLegQIEhAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Videos" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5M4DRtswS0zqwdb66RntEVpKK07A:1778889600236&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYemg2KC4yuMPyQlIvlWqq2AtcdVMJmMDffRprXURy79lwU70Lz2dh0euofCmx0cOkSMUN_9xLa1WY5bR54cNlXeNGNTIGEBWBS4AHaEHunITDBubohheJbfr-zPyq37pAUUqNqfD1HmhD39p6KjzK0vACrrg3Q&q=%22B0CN93GN6Z%22+%22out+of+5+stars%22+reviews&sa=X&ved=2ahUKEwjE1t2VwLyUAxUS48kDHcyRAgsQtKgLegQIExAB
+              - generic [ref=e93]: Videos
+          - listitem [ref=e94]:
+            - link "Short videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5M4DRtswS0zqwdb66RntEVpKK07A:1778889600236&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYemg2KC4yuMPyQlIvlWqq2AtcdVMJmMDffRprXURy79lwU70Lz2dh0euofCmx0cOkSMUN_9xLa1WY5bR54cNlXeNGNTIGEBWBS4AHaEHunITDBubohheJbfr-zPyq37pAUUqNqfD1HmhD39p6KjzK0vACrrg3Q&q=%22B0CN93GN6Z%22+%22out+of+5+stars%22+reviews&sa=X&ved=2ahUKEwjE1t2VwLyUAxUS48kDHcyRAgsQs6gLegQIFBAB
+              - generic [ref=e97]: Short videos
+          - listitem [ref=e98]:
+            - link "Shopping" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5M4DRtswS0zqwdb66RntEVpKK07A:1778889600236&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYemg2KC4yuMPyQlIvlWqq2AtcdVMJmMDffRprXURy79lwU70Lz2dh0euofCmx0cOkSMUN_9xLa1WY5bR54cNlXeNGNTIGEBWBS4AHaEHunITDBubohheJbfr-zPyq37pAUUqNqfD1HmhD39p6KjzK0vACrrg3Q&q=%22B0CN93GN6Z%22+%22out+of+5+stars%22+reviews&ved=1t:220175&ictx=111
+              - generic [ref=e101]: Shopping
+          - listitem [ref=e102]:
+            - link "Forums" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5M4DRtswS0zqwdb66RntEVpKK07A:1778889600236&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYemg2KC4yuMPyQlIvlWqq2AtcdVMJmMDffRprXURy79lwU70Lz2dh0euofCmx0cOkSMUN_9xLa1WY5bR54cNlXeNGNTIGEBWBS4AHaEHunITDBubohheJbfr-zPyq37pAUUqNqfD1HmhD39p6KjzK0vACrrg3Q&q=%22B0CN93GN6Z%22+%22out+of+5+stars%22+reviews&sa=X&ved=2ahUKEwjE1t2VwLyUAxUS48kDHcyRAgsQs6gLegQIFhAB
+              - generic [ref=e105]: Forums
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - generic [ref=e127]:
+      - generic [ref=e146]:
+        - heading "Thinking" [level=2] [ref=e150]:
+          - generic [ref=e151]: Thinking
+        - progressbar [ref=e152]
+      - main [ref=e154]:
+        - generic [ref=e158]:
+          - generic [ref=e161]:
+            - heading "Web results" [level=2] [ref=e162]
+            - generic [ref=e163]:
+              - generic [ref=e166]:
+                - link "Teicui 5-Piece Pure Bamboo Drawer Organizer Set امازون السعودية https://www.amazon.sa › B0CN93GN6Z" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.amazon.sa/-/en/Teicui-5-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z
+                  - heading "Teicui 5-Piece Pure Bamboo Drawer Organizer Set" [level=3] [ref=e169]
+                  - generic [ref=e174]:
+                    - generic [ref=e176]: امازون السعودية
+                    - generic [ref=e178]: https://www.amazon.sa › B0CN93GN6Z
+                - button "About this result" [ref=e179] [cursor=pointer]:
+                  - img [ref=e182]
+              - generic [ref=e186]:
+                - emphasis [ref=e187]: B0CN93GN6Z
+                - text: . Customer
+                - emphasis [ref=e188]: Reviews
+                - text: ", 4.7"
+                - emphasis [ref=e189]: out of 5 stars
+                - text: "311"
+                - emphasis [ref=e190]: Reviews
+                - text: . Item Dimensions D x W x H, 38.1D x 33W x 4.8H centimeters. Item Weight, 1.27 kg. Material Type ...
+          - generic [ref=e194]:
+            - generic [ref=e197]:
+              - link "Teicui 5-Piece Pure Bamboo Drawer Organizer Set Amazon UK https://www.amazon.co.uk › B0CN93GN6Z" [ref=e199] [cursor=pointer]:
+                - /url: https://www.amazon.co.uk/Teicui-5-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z
+                - heading "Teicui 5-Piece Pure Bamboo Drawer Organizer Set" [level=3] [ref=e200]
+                - generic [ref=e205]:
+                  - generic [ref=e207]: Amazon UK
+                  - generic [ref=e209]: https://www.amazon.co.uk › B0CN93GN6Z
+              - button "About this result" [ref=e210] [cursor=pointer]:
+                - img [ref=e213]
+            - generic [ref=e217]:
+              - emphasis [ref=e218]: B0CN93GN6Z
+              - text: . Customer
+              - emphasis [ref=e219]: Reviews
+              - text: ", 4.7"
+              - emphasis [ref=e220]: out of 5 stars
+              - text: "288"
+              - emphasis [ref=e221]: Reviews
+              - text: . Usage, Cosmetics, Stationery. Other Special Features of the Product, Portable, Adjustable ...
+          - generic [ref=e225]:
+            - generic [ref=e228]:
+              - link "Teicui 5-Piece Pure Bamboo Drawer Organizer Set Amazon.com.au https://www.amazon.com.au › B0CN93GN6Z" [ref=e230] [cursor=pointer]:
+                - /url: https://www.amazon.com.au/Teicui-5-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z
+                - heading "Teicui 5-Piece Pure Bamboo Drawer Organizer Set" [level=3] [ref=e231]
+                - generic [ref=e236]:
+                  - generic [ref=e238]: Amazon.com.au
+                  - generic [ref=e240]: https://www.amazon.com.au › B0CN93GN6Z
+              - button "About this result" [ref=e241] [cursor=pointer]:
+                - img [ref=e244]
+            - generic [ref=e247]:
+              - generic [ref=e248]:
+                - emphasis [ref=e249]: B0CN93GN6Z
+                - text: . Customer
+                - emphasis [ref=e250]: Reviews
+                - text: ", 4.7"
+                - emphasis [ref=e251]: out of 5 stars
+                - text: "294"
+                - emphasis [ref=e252]: reviews
+                - text: . Specific Uses For Product, Cosmetics, Stationery. Other Special Features of the Product, Portable ...
+              - link "Read more" [ref=e253] [cursor=pointer]:
+                - /url: https://www.amazon.com.au/Teicui-5-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z#:~:text=Product%20image%20gallery
+            - generic [ref=e255]:
+              - generic [ref=e256]: A$87.97
+              - text: ·
+              - img "Rated 4.7 out of 5, (294) user reviews" [ref=e260]:
+                - text: "4.7"
+                - img [ref=e261]
+                - text: (294)
+          - generic [ref=e267]:
+            - generic [ref=e270]:
+              - link "Teicui 5 Piece Pure Bamboo Drawer Organizer Set Amazon.de https://www.amazon.de › B0CN93GN6Z" [ref=e272] [cursor=pointer]:
+                - /url: https://www.amazon.de/-/en/Teicui-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z
+                - heading "Teicui 5 Piece Pure Bamboo Drawer Organizer Set" [level=3] [ref=e273]
+                - generic [ref=e278]:
+                  - generic [ref=e280]: Amazon.de
+                  - generic [ref=e282]: https://www.amazon.de › B0CN93GN6Z
+              - button "About this result" [ref=e283] [cursor=pointer]:
+                - img [ref=e286]
+            - generic [ref=e289]:
+              - generic [ref=e290]:
+                - emphasis [ref=e291]: B0CN93GN6Z
+                - text: . Customer
+                - emphasis [ref=e292]: Reviews
+                - text: ", 4.7"
+                - emphasis [ref=e293]: out of 5 stars
+                - text: "301"
+                - emphasis [ref=e294]: Reviews
+                - text: . Usage, Cosmetics, Stationery. Other Special Features of the Product, Portable, Adjustable ...
+              - link "Read more" [ref=e295] [cursor=pointer]:
+                - /url: https://www.amazon.de/-/en/Teicui-Piece-Bamboo-Drawer-Organizer/dp/B0CN93GN6Z#:~:text=Product%20image%20gallery
+            - generic [ref=e297]:
+              - generic [ref=e298]: €54.84
+              - text: ·
+              - img "Rated 4.7 out of 5, (301) user reviews" [ref=e302]:
+                - text: "4.7"
+                - img [ref=e303]
+                - text: (301)
+              - text: ·
+              - generic [ref=e306]: 30-day returns
+          - generic [ref=e310]:
+            - generic [ref=e313]:
+              - link "Teicui bamboo drawer organizer Set，expandable ... Amazon ZA https://www.amazon.co.za › B0CN93GN6Z" [ref=e315] [cursor=pointer]:
+                - /url: https://www.amazon.co.za/Teicui-organizer-Set%EF%BC%8Cexpandable-organizers-Organizer/dp/B0CN93GN6Z
+                - heading "Teicui bamboo drawer organizer Set，expandable ..." [level=3] [ref=e316]
+                - generic [ref=e321]:
+                  - generic [ref=e323]: Amazon ZA
+                  - generic [ref=e325]: https://www.amazon.co.za › B0CN93GN6Z
+              - button "About this result" [ref=e326] [cursor=pointer]:
+                - img [ref=e329]
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - emphasis [ref=e334]: B0CN93GN6Z
+                - text: . Customer
+                - emphasis [ref=e335]: Reviews
+                - text: ", 4.7"
+                - emphasis [ref=e336]: out of 5 stars
+                - text: "296"
+                - emphasis [ref=e337]: Reviews
+                - text: . Specific Uses For Product, Stationery,Hardware Tools,kitchen,makeup. Other Special Features of the ...
+              - link "Read more" [ref=e338] [cursor=pointer]:
+                - /url: https://www.amazon.co.za/Teicui-organizer-Set%EF%BC%8Cexpandable-organizers-Organizer/dp/B0CN93GN6Z#:~:text=Product%20image%20gallery
+            - generic [ref=e340]:
+              - generic [ref=e341]: ZAR 1.00
+              - text: ·
+              - img "Rated 4.7 out of 5, (296) user reviews" [ref=e345]:
+                - text: "4.7"
+                - img [ref=e346]
+                - text: (296)
+          - generic [ref=e352]:
+            - heading "Images" [level=2] [ref=e356]
+            - generic [ref=e360]:
+              - generic [ref=e364] [cursor=pointer]:
+                - link "Teicui bamboo drawer organizer Set，expandable drawer ... Amazon.co.za":
+                  - /url: https://www.amazon.co.za/Teicui-organizer-Set%EF%BC%8Cexpandable-organizers-Organizer/dp/B0CN93GN6Z
+                - button "Teicui bamboo drawer organizer Set，expandable drawer ..." [ref=e366]:
+                  - img "Teicui bamboo drawer organizer Set，expandable drawer ..." [ref=e368]
+                - generic [ref=e370]:
+                  - generic [ref=e372]: Teicui bamboo drawer organizer Set，expandable drawer ...
+                  - generic [ref=e373]:
+                    - generic [ref=e380]: Amazon.co.za
+                    - button "About this result" [ref=e383]:
+                      - img [ref=e386]
+              - generic [ref=e391] [cursor=pointer]:
+                - link "Teicui bamboo drawer organizer Set，expandable drawer ... Amazon.co.za":
+                  - /url: https://www.amazon.co.za/Teicui-organizer-Set%EF%BC%8Cexpandable-organizers-Organizer/dp/B0CN93GN6Z
+                - button "Teicui bamboo drawer organizer Set，expandable drawer ..." [ref=e393]:
+                  - img "Teicui bamboo drawer organizer Set，expandable drawer ..." [ref=e395]
+                - generic [ref=e397]:
+                  - generic [ref=e399]: Teicui bamboo drawer organizer Set，expandable drawer ...
+                  - generic [ref=e400]:
+                    - generic [ref=e407]: Amazon.co.za
+                    - button "About this result" [ref=e410]:
+                      - img [ref=e413]
+              - generic [ref=e418] [cursor=pointer]:
+                - link "Teicui bamboo drawer organizer Set，expandable drawer ... Amazon.co.za":
+                  - /url: https://www.amazon.co.za/Teicui-organizer-Set%EF%BC%8Cexpandable-organizers-Organizer/dp/B0CN93GN6Z
+                - button "Teicui bamboo drawer organizer Set，expandable drawer ..." [ref=e420]:
+                  - img "Teicui bamboo drawer organizer Set，expandable drawer ..." [ref=e422]
+                - generic [ref=e424]:
+                  - generic [ref=e426]: Teicui bamboo drawer organizer Set，expandable drawer ...
+                  - generic [ref=e427]:
+                    - generic [ref=e434]: Amazon.co.za
+                    - button "About this result" [ref=e437]:
+                      - img [ref=e440]
+            - button "Show more images" [ref=e443] [cursor=pointer]:
+              - separator [ref=e444]
+              - generic [ref=e445]:
+                - generic [ref=e446]: Show more images
+                - img [ref=e448]
+        - generic:
+          - generic:
+            - navigation
+        - navigation
+    - contentinfo [ref=e450]:
+      - heading "Footer Links" [level=1] [ref=e451]
+      - generic [ref=e455]:
+        - generic [ref=e458]:
+          - generic [ref=e459]: Results are personalized
+          - generic [ref=e460]: "-"
+          - link "Try without personalization" [ref=e462] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=%22B0CN93GN6Z%22+%22out+of+5+stars%22+reviews&peek_pws=0&sxsrf=ANbL-n5M4DRtswS0zqwdb66RntEVpKK07A:1778889600236
+            - generic [ref=e463]: Try without personalization
+        - generic [ref=e467]:
+          - button "03103, Manchester, NH - Based on your places (Home)" [ref=e469] [cursor=pointer]:
+            - generic [ref=e470]: 03103, Manchester, NH
+            - generic [ref=e472]:
+              - text: "-"
+              - generic [ref=e473]: Based on your places (Home)
+          - text: "-"
+          - button "Update location" [ref=e475] [cursor=pointer]: Update location
+        - generic [ref=e478]:
+          - link "Help" [ref=e479] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e480] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e481] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e482] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

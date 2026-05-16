@@ -1,0 +1,355 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4QPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: site:amazon.com lazy susan turntable organizer clear fridge pantry site:amazon.com lazy susan turntable organizer clear fridge pantry
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e47]:
+      - link "Search Labs" [ref=e49] [cursor=pointer]:
+        - /url: https://labs.google.com/search?source=srp
+        - img [ref=e50]
+      - button "Google apps" [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - 'button "Google Account: Jonathan Jenkins (jonjenkins89@gmail.com)" [ref=e58] [cursor=pointer]':
+        - img [ref=e59]
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnyHmq2hxoqmS0Tx38rbtTMokatCu4UnrJzhU7BOXw7CjzpgexdCLz33raof4dx1VtbdVj50-BJhfDxGZym1fHYCgShAGAicidn7ujxHXACJbD2tu-xxAiTU9q7UKgqs_jjkAgDfA&aep=1&ntc=1&sa=X&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q2J8OegQIDBAD
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnyHmq2hxoqmS0Tx38rbtTMokatCu4UnrJzhU7BOXw7CjzpgexdCLz33raof4dx1VtbdVj50-BJhfDxGZym1fHYCgShAGAicidn7ujxHXACJbD2tu-xxAiTU9q7UKgqs_jjkAgDfA&q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sa=X&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4QtKgLegQIDxAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Shopping" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnyHmq2hxoqmS0Tx38rbtTMokatCu4UnrJzhU7BOXw7CjzpgexdCLz33raof4dx1VtbdVj50-BJhfDxGZym1fHYCgShAGAicidn7ujxHXACJbD2tu-xxAiTU9q7UKgqs_jjkAgDfA&q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&ved=1t:220175&ictx=111
+              - generic [ref=e93]: Shopping
+          - listitem [ref=e94]:
+            - link "Short videos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnyHmq2hxoqmS0Tx38rbtTMokatCu4UnrJzhU7BOXw7CjzpgexdCLz33raof4dx1VtbdVj50-BJhfDxGZym1fHYCgShAGAicidn7ujxHXACJbD2tu-xxAiTU9q7UKgqs_jjkAgDfA&q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sa=X&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Qs6gLegQIERAB
+              - generic [ref=e97]: Short videos
+          - listitem [ref=e98]:
+            - link "Videos" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnyHmq2hxoqmS0Tx38rbtTMokatCu4UnrJzhU7BOXw7CjzpgexdCLz33raof4dx1VtbdVj50-BJhfDxGZym1fHYCgShAGAicidn7ujxHXACJbD2tu-xxAiTU9q7UKgqs_jjkAgDfA&q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sa=X&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4QtKgLegQIEhAB
+              - generic [ref=e101]: Videos
+          - listitem [ref=e102]:
+            - link "Forums" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvnyHmq2hxoqmS0Tx38rbtTMokatCu4UnrJzhU7BOXw7CjzpgexdCLz33raof4dx1VtbdVj50-BJhfDxGZym1fHYCgShAGAicidn7ujxHXACJbD2tu-xxAiTU9q7UKgqs_jjkAgDfA&q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sa=X&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Qs6gLegQIFBAB
+              - generic [ref=e105]: Forums
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - main [ref=e128]:
+      - generic [ref=e132]:
+        - generic [ref=e135]:
+          - heading "Web results" [level=2] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e140]:
+              - link "LAMU 3 Pack Lazy Susan Organizer Turntable for Cabinet ... Amazon.com https://www.amazon.com › LAMU-Turntable-Refrigera..." [ref=e142] [cursor=pointer]:
+                - /url: https://www.amazon.com/LAMU-Turntable-Refrigerator-Countertop-Organizers/dp/B0CNCWY7N6
+                - heading "LAMU 3 Pack Lazy Susan Organizer Turntable for Cabinet ..." [level=3] [ref=e143]
+                - generic [ref=e148]:
+                  - generic [ref=e150]: Amazon.com
+                  - generic [ref=e152]: https://www.amazon.com › LAMU-Turntable-Refrigera...
+              - button "About this result" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+            - generic [ref=e160]:
+              - emphasis [ref=e161]: Great for storing spices, condiments, and cooking essentials
+              - text: ", it spins smoothly to bring the item you need to the forefront, making your culinary endeavors ..."
+            - link "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e164] [cursor=pointer]:
+              - /url: https://www.amazon.com/LAMU-Turntable-Refrigerator-Countertop-Organizers/dp/B0CNCWY7N6
+              - img "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e166]
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - link "NOSTA Home Rotating Lazy Susan for Refrigerator Amazon.com https://www.amazon.com › NOSTALGIQ-Rectangular-..." [ref=e175] [cursor=pointer]:
+              - /url: https://www.amazon.com/NOSTALGIQ-Rectangular-Organizers-Effortlessly-Refrigerator/dp/B0CD9PTMZZ
+              - heading "NOSTA Home Rotating Lazy Susan for Refrigerator" [level=3] [ref=e176]
+              - generic [ref=e181]:
+                - generic [ref=e183]: Amazon.com
+                - generic [ref=e185]: https://www.amazon.com › NOSTALGIQ-Rectangular-...
+            - button "About this result" [ref=e186] [cursor=pointer]:
+              - img [ref=e189]
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - emphasis [ref=e194]: FIRJOY Lazy Susan Turntable for Refrigerator
+              - text: ", Square Turntable Organizer for Fridge Cabinet, Pantry, Countertop | 16.5\" x 11.1\" (Rectangle 2 Pack - Clear)."
+            - link "Read more" [ref=e195] [cursor=pointer]:
+              - /url: https://www.amazon.com/NOSTALGIQ-Rectangular-Organizers-Effortlessly-Refrigerator/dp/B0CD9PTMZZ#:~:text=FIRJOY%20Lazy%20Susan%20Turntable%20for,(Rectangle%202%20Pack%20%2D%20Clear)
+          - link "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e198] [cursor=pointer]:
+            - /url: https://www.amazon.com/NOSTALGIQ-Rectangular-Organizers-Effortlessly-Refrigerator/dp/B0CD9PTMZZ
+            - img "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e200]
+        - generic [ref=e204]:
+          - generic [ref=e207]:
+            - link "2 Pack 9 Inch Clear Acrylic Lazy Susan, Non-Skid ... Amazon.com https://www.amazon.com › Turntable-Organization-Ref..." [ref=e209] [cursor=pointer]:
+              - /url: https://www.amazon.com/Turntable-Organization-Refrigerator-Countertop-Organizing/dp/B0C73SFP11
+              - heading "2 Pack 9 Inch Clear Acrylic Lazy Susan, Non-Skid ..." [level=3] [ref=e210]
+              - generic [ref=e215]:
+                - generic [ref=e217]: Amazon.com
+                - generic [ref=e219]: https://www.amazon.com › Turntable-Organization-Ref...
+            - button "About this result" [ref=e220] [cursor=pointer]:
+              - img [ref=e223]
+          - generic [ref=e227]:
+            - text: Amazon.com -
+            - emphasis [ref=e228]: 2 Pack 9 Inch Clear Acrylic Lazy Susan
+            - text: ", Non-Skid Turntable Organizer for Cabinet, Kitchen, Pantry Organization Storage, Refrigerator, Vanity Makeup"
+          - link "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e231] [cursor=pointer]:
+            - /url: https://www.amazon.com/Turntable-Organization-Refrigerator-Countertop-Organizing/dp/B0C73SFP11
+            - img "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e233]
+        - generic [ref=e237]:
+          - generic [ref=e240]:
+            - link "GUZON 4 Pack Lazy Susan Organizer for Cabinet ... Amazon.com https://www.amazon.com › Organizer-Upgraded-Turnta..." [ref=e242] [cursor=pointer]:
+              - /url: https://www.amazon.com/Organizer-Upgraded-Turntable-Rotating-Refrigerator/dp/B0B76F9T49
+              - heading "GUZON 4 Pack Lazy Susan Organizer for Cabinet ..." [level=3] [ref=e243]
+              - generic [ref=e248]:
+                - generic [ref=e250]: Amazon.com
+                - generic [ref=e252]: https://www.amazon.com › Organizer-Upgraded-Turnta...
+            - button "About this result" [ref=e253] [cursor=pointer]:
+              - img [ref=e256]
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - text: GUZON 4 Pack Lazy Susan Organizer for Cabinet,
+              - emphasis [ref=e261]: Upgraded 11.5" Clear Turntable Organizer
+              - text: with Handles and Raised Edge, Lazy Susan for Table Top, Pantry ...
+            - link "Read more" [ref=e262] [cursor=pointer]:
+              - /url: https://www.amazon.com/Organizer-Upgraded-Turntable-Rotating-Refrigerator/dp/B0B76F9T49#:~:text=GUZON%204%20Pack%20Lazy%20Susan,and%20Storage%20for%20Kitchen%2C%20Refrigerator
+          - link "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e265] [cursor=pointer]:
+            - /url: https://www.amazon.com/Organizer-Upgraded-Turntable-Rotating-Refrigerator/dp/B0B76F9T49
+            - img "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e267]
+        - generic [ref=e271]:
+          - generic [ref=e274]:
+            - link "Clear Lazy-Susan Turntable Cabinet-Organizer – 2-Pack ... Amazon.com https://www.amazon.com › Roninkier-Clear-Lazy-Susa..." [ref=e276] [cursor=pointer]:
+              - /url: https://www.amazon.com/Roninkier-Clear-Lazy-Susan-Turntable-Cabinet-Organizer/dp/B097R4JCTG
+              - heading "Clear Lazy-Susan Turntable Cabinet-Organizer – 2-Pack ..." [level=3] [ref=e277]
+              - generic [ref=e282]:
+                - generic [ref=e284]: Amazon.com
+                - generic [ref=e286]: https://www.amazon.com › Roninkier-Clear-Lazy-Susa...
+            - button "About this result" [ref=e287] [cursor=pointer]:
+              - img [ref=e290]
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - text: The 11-Inch size
+              - emphasis [ref=e295]: fits most cabinets, refrigerators, pantries
+              - text: and bathroom countertops. The clear PET material makes the items you put on the turntable more ...
+            - link "Read more" [ref=e296] [cursor=pointer]:
+              - /url: https://www.amazon.com/Roninkier-Clear-Lazy-Susan-Turntable-Cabinet-Organizer/dp/B097R4JCTG#:~:text=The%2011%2DInch%20size%20fits%20most,the%20items%20from%20falling%20off.
+          - link "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e299] [cursor=pointer]:
+            - /url: https://www.amazon.com/Roninkier-Clear-Lazy-Susan-Turntable-Cabinet-Organizer/dp/B097R4JCTG
+            - img "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e301]
+        - generic [ref=e305]:
+          - generic [ref=e308]:
+            - link "FIRJOY Lazy Susan Turntable for Refrigerator, Square ... Amazon.com https://www.amazon.com › FIRJOY-Lazy-Susan-Refrig..." [ref=e310] [cursor=pointer]:
+              - /url: https://www.amazon.com/FIRJOY-Lazy-Susan-Refrigerator-Countertop/dp/B0CBVDX6NK
+              - heading "FIRJOY Lazy Susan Turntable for Refrigerator, Square ..." [level=3] [ref=e311]
+              - generic [ref=e316]:
+                - generic [ref=e318]: Amazon.com
+                - generic [ref=e320]: https://www.amazon.com › FIRJOY-Lazy-Susan-Refrig...
+            - button "About this result" [ref=e321] [cursor=pointer]:
+              - img [ref=e324]
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - emphasis [ref=e329]: FIRJOY Rectangle Lazy Susan for Refrigerator
+              - text: ; Smooth Turnable Design · Makes reaching items at the back of shelf very easy and accessible and no need to move ...
+            - link "Read more" [ref=e330] [cursor=pointer]:
+              - /url: https://www.amazon.com/FIRJOY-Lazy-Susan-Refrigerator-Countertop/dp/B0CBVDX6NK#:~:text=Select%20delivery%20location&text=Smooth%20Turnable%20Design%3A%20Makes%20reaching&text=Smooth%20Turnable%20Design%3A%20Makes%20reaching,the%20way%20from%20the%20front.
+          - link "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e333] [cursor=pointer]:
+            - /url: https://www.amazon.com/FIRJOY-Lazy-Susan-Refrigerator-Countertop/dp/B0CBVDX6NK
+            - img "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e335]
+        - generic [ref=e339]:
+          - generic [ref=e342]:
+            - link "4 Pack Lazy Susan Organizer with Non-Skid Liners, 12- ... Amazon.com https://www.amazon.com › Organizer-Spinning-Turnta..." [ref=e344] [cursor=pointer]:
+              - /url: https://www.amazon.com/Organizer-Spinning-Turntable-Bathroom-Countertop/dp/B0BWVT31VK
+              - heading "4 Pack Lazy Susan Organizer with Non-Skid Liners, 12- ..." [level=3] [ref=e345]
+              - generic [ref=e350]:
+                - generic [ref=e352]: Amazon.com
+                - generic [ref=e354]: https://www.amazon.com › Organizer-Spinning-Turnta...
+            - button "About this result" [ref=e355] [cursor=pointer]:
+              - img [ref=e358]
+          - generic [ref=e361]:
+            - generic [ref=e362]:
+              - emphasis [ref=e363]: Spinning lazy susan organizer for fridge, cabinet, pantry
+              - text: ; Brand. Rakkime ; Material. Plastic PET ; Color. Clear ; Item Weight. 2.16 Kilograms ; Item Diameter. 12 ...
+            - link "Read more" [ref=e364] [cursor=pointer]:
+              - /url: https://www.amazon.com/Organizer-Spinning-Turntable-Bathroom-Countertop/dp/B0BWVT31VK#:~:text=Select%20delivery%20location&text=Brand,Rakkime&text=Material,Plastic%20PET&text=Color,Clear&text=Item%20Weight,2.16%20Kilograms&text=Item%20Diameter,12%20Inches
+          - link "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e367] [cursor=pointer]:
+            - /url: https://www.amazon.com/Organizer-Spinning-Turntable-Bathroom-Countertop/dp/B0BWVT31VK
+            - img "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e369]
+        - generic [ref=e373]:
+          - generic [ref=e376]:
+            - link "Yieach Clear Refrigerator Lazy Susan Turntable,15.7''x11. ... Amazon.com https://www.amazon.com › Yieach-Refrigerator-Rectan..." [ref=e378] [cursor=pointer]:
+              - /url: https://www.amazon.com/Yieach-Refrigerator-Rectangular-Countertop-Condiment/dp/B0DPG5HNDB
+              - heading "Yieach Clear Refrigerator Lazy Susan Turntable,15.7''x11. ..." [level=3] [ref=e379]
+              - generic [ref=e384]:
+                - generic [ref=e386]: Amazon.com
+                - generic [ref=e388]: https://www.amazon.com › Yieach-Refrigerator-Rectan...
+            - button "About this result" [ref=e389] [cursor=pointer]:
+              - img [ref=e392]
+          - generic [ref=e395]:
+            - generic [ref=e396]:
+              - emphasis [ref=e397]: FIRJOY Lazy Susan Turntable for Refrigerator
+              - text: ", Square Turntable Organizer for Fridge Cabinet, Pantry, Countertop | 16.5\" x 11.1\" (Rectangle 2 Pack - Clear)."
+            - link "Read more" [ref=e398] [cursor=pointer]:
+              - /url: https://www.amazon.com/Yieach-Refrigerator-Rectangular-Countertop-Condiment/dp/B0DPG5HNDB#:~:text=FIRJOY%20Lazy%20Susan%20Turntable%20for,(Rectangle%202%20Pack%20%2D%20Clear)
+          - link "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e401] [cursor=pointer]:
+            - /url: https://www.amazon.com/Yieach-Refrigerator-Rectangular-Countertop-Condiment/dp/B0DPG5HNDB
+            - img "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e403]
+        - generic [ref=e407]:
+          - generic [ref=e410]:
+            - link "Slow Slog Refrigerator Lazy Susan, Round Clear ... Amazon.com https://www.amazon.com › Slow-Slog-Refrigerator-Tur..." [ref=e412] [cursor=pointer]:
+              - /url: https://www.amazon.com/Slow-Slog-Refrigerator-Turntable-Organizer/dp/B0C8MK5B31
+              - heading "Slow Slog Refrigerator Lazy Susan, Round Clear ..." [level=3] [ref=e413]
+              - generic [ref=e418]:
+                - generic [ref=e420]: Amazon.com
+                - generic [ref=e422]: https://www.amazon.com › Slow-Slog-Refrigerator-Tur...
+            - button "About this result" [ref=e423] [cursor=pointer]:
+              - img [ref=e426]
+          - generic [ref=e429]:
+            - generic [ref=e430]:
+              - emphasis [ref=e431]: Ideal for organizing kitchen items like jars, spices, condiments, and paper towels
+              - text: . Save space on countertops, cabinets, and more with this fridge lazy susan ...
+            - link "Read more" [ref=e432] [cursor=pointer]:
+              - /url: https://www.amazon.com/Slow-Slog-Refrigerator-Turntable-Organizer/dp/B0C8MK5B31#:~:text=Ideal%20for%20organizing%20kitchen%20items,this%20fridge%20lazy%20susan%20solution.
+          - link "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e435] [cursor=pointer]:
+            - /url: https://www.amazon.com/Slow-Slog-Refrigerator-Turntable-Organizer/dp/B0C8MK5B31
+            - img "site:amazon.com lazy susan turntable organizer clear fridge pantry from www.amazon.com" [ref=e437]
+        - generic [ref=e441]:
+          - generic [ref=e444]:
+            - link "LAMU 2 Pack Lazy Susan Organizer, 9'' Clear ... Amazon.com https://www.amazon.com › LAMU-Organizer-Countert..." [ref=e446] [cursor=pointer]:
+              - /url: https://www.amazon.com/LAMU-Organizer-Countertop-Refrigerator-Organizers/dp/B0G8HKTNS2
+              - heading "LAMU 2 Pack Lazy Susan Organizer, 9'' Clear ..." [level=3] [ref=e447]
+              - generic [ref=e452]:
+                - generic [ref=e454]: Amazon.com
+                - generic [ref=e456]: https://www.amazon.com › LAMU-Organizer-Countert...
+            - button "About this result" [ref=e457] [cursor=pointer]:
+              - img [ref=e460]
+          - generic [ref=e464]:
+            - emphasis [ref=e465]: 360° Smooth Rotation
+            - text: ": This lazy susan organizer for cabinet features a reinforced rotating base that spins smoothly and quietly 360°, allowing you to reach ..."
+          - list [ref=e467]:
+            - listitem [ref=e468]:
+              - link "Product Details" [ref=e469] [cursor=pointer]:
+                - /url: https://www.amazon.com/LAMU-Organizer-Countertop-Refrigerator-Organizers/dp/B0G8HKTNS2#:~:text=Product%20details,-About%20this%20product
+                - generic [ref=e471]: Product Details
+            - listitem [ref=e472]:
+              - link "From The Brand" [ref=e473] [cursor=pointer]:
+                - /url: https://www.amazon.com/LAMU-Organizer-Countertop-Refrigerator-Organizers/dp/B0G8HKTNS2#:~:text=From%20the%20brand
+                - generic [ref=e475]: From The Brand
+            - listitem [ref=e476]:
+              - link "Tidy Storage, Comfortable..." [ref=e477] [cursor=pointer]:
+                - /url: https://www.amazon.com/LAMU-Organizer-Countertop-Refrigerator-Organizers/dp/B0G8HKTNS2#:~:text=Tidy%20Storage%2C%20Comfortable%20Living
+                - generic [ref=e479]: Tidy Storage, Comfortable...
+      - generic [ref=e481]:
+        - generic [ref=e486]:
+          - heading "People also search for" [level=2] [ref=e488]
+          - generic [ref=e490]:
+            - generic [ref=e491]:
+              - link "Lazy susan turntable organizer clear fridge pantry reviews" [ref=e495] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&q=Lazy+susan+turntable+organizer+clear+fridge+pantry+reviews&sa=X&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q1QJ6BAgwEAE
+                - generic [ref=e496]:
+                  - generic [ref=e501]: Lazy susan turntable organizer clear fridge pantry reviews
+                  - img [ref=e505]
+              - link "Lazy susan turntable organizer clear fridge pantry walmart" [ref=e510] [cursor=pointer]:
+                - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&q=Lazy+susan+turntable+organizer+clear+fridge+pantry+walmart&sa=X&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q1QJ6BAgxEAE
+                - generic [ref=e511]:
+                  - generic [ref=e516]: Lazy susan turntable organizer clear fridge pantry walmart
+                  - img [ref=e520]
+            - link "Lazy susan turntable organizer clear fridge pantry amazon" [ref=e526] [cursor=pointer]:
+              - /url: /search?sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&q=Lazy+susan+turntable+organizer+clear+fridge+pantry+amazon&sa=X&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q1QJ6BAgyEAE
+              - generic [ref=e527]:
+                - generic [ref=e532]: Lazy susan turntable organizer clear fridge pantry amazon
+                - img [ref=e536]
+        - navigation [ref=e538]:
+          - heading "Page Navigation" [level=1] [ref=e539]
+          - text: "1"
+          - link "Page 2" [ref=e542] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=10&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8tMDegQILhAE
+            - text: "2"
+          - link "Page 3" [ref=e544] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=20&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8tMDegQILhAG
+            - text: "3"
+          - link "Page 4" [ref=e546] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=30&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8tMDegQILhAI
+            - text: "4"
+          - link "Page 5" [ref=e548] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=40&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8tMDegQILhAK
+            - text: "5"
+          - link "Page 6" [ref=e550] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=50&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8tMDegQILhAM
+            - text: "6"
+          - link "Page 7" [ref=e552] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=60&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8tMDegQILhAO
+            - text: "7"
+          - link "Page 8" [ref=e554] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=70&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8tMDegQILhAQ
+            - text: "8"
+          - link "Page 9" [ref=e556] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=80&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8tMDegQILhAS
+            - text: "9"
+          - link "Page 10" [ref=e558] [cursor=pointer]:
+            - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=90&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8tMDegQILhAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e560]:
+            - link "Next" [ref=e561] [cursor=pointer]:
+              - /url: /search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&sca_esv=2aaede6942444870&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833&ei=2LIHaqTNMqy7gALFwaLxBQ&start=10&sa=N&sstk=AU9db-D1WkVp4V8KPnjPH1Xos3Zg0XWhY4oE1TVcQ6HLnfYyomsRHkXkcy1pPOH43NYn6TRHoUpyRblw0XJQAeuhwQNVTZFLsM55cQ&ved=2ahUKEwikmfTFv7yUAxWsHUAKHcWgKF4Q8NMDegQILhAW
+              - generic [ref=e563]: Next
+      - navigation
+    - contentinfo [ref=e564]:
+      - heading "Footer Links" [level=1] [ref=e565]
+      - generic [ref=e569]:
+        - generic [ref=e572]:
+          - generic [ref=e573]: Results are personalized
+          - generic [ref=e574]: "-"
+          - link "Try without personalization" [ref=e576] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=site:amazon.com+lazy+susan+turntable+organizer+clear+fridge+pantry&peek_pws=0&sxsrf=ANbL-n5NxGQqTdGREJmFZPbrTSjQd1ttHw:1778889432833
+            - generic [ref=e577]: Try without personalization
+        - generic [ref=e581]:
+          - button "03103, Manchester, NH - Based on your places (Home)" [ref=e583] [cursor=pointer]:
+            - generic [ref=e584]: 03103, Manchester, NH
+            - generic [ref=e586]:
+              - text: "-"
+              - generic [ref=e587]: Based on your places (Home)
+          - text: "-"
+          - button "Update location" [ref=e589] [cursor=pointer]: Update location
+        - generic [ref=e592]:
+          - link "Help" [ref=e593] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e594] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e595] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e596] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1
