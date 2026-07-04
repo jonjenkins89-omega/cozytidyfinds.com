@@ -69,3 +69,15 @@ Running log of all work done on this project. Most recent entries at the bottom.
 - Add real product images
 - Create social media accounts and update placeholder links
 - Apply for Amazon Associates
+
+## 2026-07-04 — Real affiliate links live (Johnna's 13 picks)
+
+- **All 13 of Johnna's real Amazon Associates links (tag j91788-20) are now on the site**, sourced from `current-projects/6.26.26_ctf_current.md`. Kitchen page rebuilt with her 9 kitchen picks; organization page leads with her 3 org picks; bathroom leads with the Vtopmart drawers; homepage features 6 of her picks.
+- **Every product image now matches its link** — pulled the real main image from each product's own Amazon listing.
+- **Every remaining card without a verified link now points to an Amazon search with her tag** (CTA reads "Shop on Amazon"), so no click on the site is unmonetized or dead. Old placeholder tag cozytidyfinds-20 is fully gone.
+- **Removed all fabricated star ratings / review counts** (Amazon TOS risk and not honest). Real picks are badged "Johnna's Pick".
+- **Polish:** product photos display uncropped on white with a soft hover zoom (new `.product-img img` CSS), all images lazy-load, sitemap lastmod bumped to 2026-07-04.
+- Added .gitignore so `current-projects/` (link worksheets) never publishes to the live site.
+
+### Pending (unchanged)
+- GA4 ID, Kit FORM_ID, email forwarding, social links.
