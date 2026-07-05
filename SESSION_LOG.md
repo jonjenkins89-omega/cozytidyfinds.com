@@ -22,7 +22,7 @@ Running log of all work done on this project. Most recent entries at the bottom.
 
 - **Contact email changed.** Footer email updated from hello@cozytidyfinds.com to support@cozytidyfinds.com.
 
-- **Email forwarding NOT yet configured.** Namecheap's email forwarding UI was throwing 500 errors. Need to set up support@cozytidyfinds.com forwarding to johnna_917@yahoo.com. Try again later or use Zoho Mail free tier.
+- **Email forwarding NOT yet configured.** Namecheap's email forwarding UI was throwing 500 errors. Need to set up support@cozytidyfinds.com forwarding to the owner's personal inbox (address in current-projects/PRIVATE-NOTES.md, not published). Try again later or use Zoho Mail free tier.
 
 - **Research completed.** 5 research docs + Claudian playbook written to docs/:
   - research-amazon-associates-fundamentals.md (commission rates, cookie mechanics, compliance rules)
@@ -46,7 +46,7 @@ Running log of all work done on this project. Most recent entries at the bottom.
 
 - **5 category pages built with 26 products total.** Kitchen (7), Bathroom (4), Organization (6), Bedroom & Cozy (6), Plants (3 + tips section). All products have consumer-facing descriptions, badge labels, tracking attributes, and placeholder affiliate links.
 
-- **About page created.** Brand story from Johnna's perspective, product methodology, FTC-compliant affiliate disclosure (#disclosure), privacy policy (#privacy), contact info.
+- **About page created.** Brand story from the owner's perspective, product methodology, FTC-compliant affiliate disclosure (#disclosure), privacy policy (#privacy), contact info.
 
 - **Link-in-bio page created.** Mobile-first standalone page at /links/ with buttons to all categories, blog, and newsletter. Noindexed.
 
@@ -56,12 +56,12 @@ Running log of all work done on this project. Most recent entries at the bottom.
 
 - **Newsletter forms updated.** All 9 pages have Kit (ConvertKit) form placeholder (FORM_ID to be replaced).
 
-- **Operations manual for Johnna completed.** 10-section guide at /manual/ covering: product management, nav/footer updates, blog posts, email, analytics, social media cheat sheet, compliance rules, seasonal calendar, and ready-to-copy product card template.
+- **Operations manual for the owner completed.** 10-section guide at /manual/ covering: product management, nav/footer updates, blog posts, email, analytics, social media cheat sheet, compliance rules, seasonal calendar, and ready-to-copy product card template.
 
 - **CLAUDE.md updated** to reflect new multi-page structure, conventions, and placeholder list.
 
 ### Pending
-- Email forwarding: support@cozytidyfinds.com -> johnna_917@yahoo.com (Namecheap UI was broken)
+- Email forwarding: support@cozytidyfinds.com -> the owner's personal inbox (address in current-projects/PRIVATE-NOTES.md, not published) (Namecheap UI was broken)
 - Replace PLACEHOLDER_ASIN with real ASINs across all pages
 - Replace cozytidyfinds-20 with real Amazon Associates tag
 - Replace G-XXXXXXXXXX with real GA4 measurement ID
@@ -72,7 +72,7 @@ Running log of all work done on this project. Most recent entries at the bottom.
 
 ## 2026-07-04 — Real affiliate links live (the 13 curated picks)
 
-- **All 13 of Johnna's real Amazon Associates links (tag j91788-20) are now on the site**, sourced from `current-projects/6.26.26_ctf_current.md`. Kitchen page rebuilt with the 9 kitchen picks; organization page leads with the 3 org picks; bathroom leads with the Vtopmart drawers; homepage features 6 of the picks.
+- **All 13 of the owner's real Amazon Associates links (tag j91788-20) are now on the site**, sourced from `current-projects/6.26.26_ctf_current.md`. Kitchen page rebuilt with the 9 kitchen picks; organization page leads with the 3 org picks; bathroom leads with the Vtopmart drawers; homepage features 6 of the picks.
 - **Every product image now matches its link** — pulled the real main image from each product's own Amazon listing.
 - **Every remaining card without a verified link now points to an Amazon search with her tag** (CTA reads "Shop on Amazon"), so no click on the site is unmonetized or dead. Old placeholder tag cozytidyfinds-20 is fully gone.
 - **Removed all fabricated star ratings / review counts** (Amazon TOS risk and not honest). Curated picks are badged "CTF Pick".

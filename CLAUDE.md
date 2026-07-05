@@ -2,7 +2,7 @@
 
 ## Overview
 
-Amazon affiliate marketing website for Jon's wife Johnna. She is the face and brand; Jon handles all technical work. The business model: curate home/organization product recommendations, drive traffic from social media (Instagram, TikTok, Pinterest), and earn commissions through Amazon Associates affiliate links when visitors purchase through the site.
+Amazon affiliate marketing website for Jon's wife. She is the face and brand; Jon handles all technical work. The business model: curate home/organization product recommendations, drive traffic from social media (Instagram, TikTok, Pinterest), and earn commissions through Amazon Associates affiliate links when visitors purchase through the site.
 
 ## Domain & Hosting
 
@@ -46,7 +46,7 @@ cozytidyfinds.com/
   links/index.html       # Link-in-bio page for social media
   blog/index.html        # Blog listing page
   blog/best-kitchen-organizers-2026/index.html  # First blog post
-  manual/index.html      # Operations manual for Johnna (not linked from nav)
+  manual/index.html      # Operations manual for the owner (not linked from nav)
   docs/                  # Research documents and operational playbook
 ```
 
@@ -75,14 +75,14 @@ When changing any shared block, update ALL HTML files that contain it.
 - Social media `href="#"` -> real profile URLs
 
 ### Email
-- support@cozytidyfinds.com (forwarding to johnna_917@yahoo.com, setup pending in Namecheap)
+- support@cozytidyfinds.com (forwarding to the owner's personal inbox (address in current-projects/PRIVATE-NOTES.md, not published), setup pending in Namecheap)
 - Kit (ConvertKit) for newsletter signups (account setup pending)
 
 ## Key Documents
 
 - `docs/PLAYBOOK.md` - Compressed operational playbook for Claude sessions
 - `docs/research-*.md` - Comprehensive research on affiliate marketing strategy
-- `manual/index.html` - Operations manual for Johnna (plain-language guide)
+- `manual/index.html` - Operations manual for the owner (plain-language guide)
 - `SESSION_LOG.md` - Running history of all work done
 
 ## Session Log

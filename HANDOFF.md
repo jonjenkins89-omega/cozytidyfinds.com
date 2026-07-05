@@ -11,7 +11,7 @@
 - Multi-page site with 13 HTML pages
 - 26 real Amazon products with images across 5 categories
 - Blog with 1,800-word starter post
-- Operations manual for Johnna at /manual/
+- Operations manual for the owner at /manual/
 - HTTPS enforced, DNS clean
 - Link-in-bio page at /links/
 - About page with disclosure and privacy
@@ -48,7 +48,7 @@
 
 ### 4. Email Forwarding
 - [ ] Try Namecheap Redirect Email again (was broken on 5/13)
-  - Domain tab > Redirect Email > Add: support -> johnna_917@yahoo.com
+  - Domain tab > Redirect Email > Add: support -> the owner's personal inbox (address in current-projects/PRIVATE-NOTES.md, not published)
 - [ ] If still broken: set up Zoho Mail free tier (zoho.com/mail)
   - Sign up, verify domain, add MX records to Namecheap DNS
 
@@ -69,7 +69,7 @@
 - [ ] Current images are Amazon CDN hotlinks (work but not ideal long-term)
 - [ ] Option A: Keep as-is for now (functional)
 - [ ] Option B: Download images, optimize as WebP, serve from /images/ folder
-- [ ] Option C: Wait for Johnna to photograph products herself (best for authenticity)
+- [ ] Option C: Wait for the owner to photograph products herself (best for authenticity)
 
 ### 8. Amazon Influencer Program
 - [ ] Apply once social media has ~500+ engaged followers
@@ -96,7 +96,7 @@
 - `CLAUDE.md` - Project overview and conventions
 - `SESSION_LOG.md` - Full work history
 - `docs/PLAYBOOK.md` - Compressed operational playbook (Claudian format)
-- `manual/index.html` - Johnna's operations manual
+- `manual/index.html` - the owner's operations manual
 - This file (`HANDOFF.md`) - What still needs doing
 
 **Associate tag placeholder:** `cozytidyfinds-20` (in all HTML files)
@@ -106,7 +106,7 @@
 
 ---
 
-## For Johnna (Show Her)
+## For the Owner (Show Her)
 
 1. The live site: https://cozytidyfinds.com
 2. Her manual: https://cozytidyfinds.com/manual/
