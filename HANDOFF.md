@@ -1,115 +1,69 @@
 # Cozy Tidy Finds - Handoff / Next Session TODO
 
-**Last Updated:** 2026-05-15
-**Status:** Site is LIVE at https://cozytidyfinds.com with real products, images, and working links
+**Last Updated:** 2026-07-04
+**Status:** Site is LIVE at https://cozytidyfinds.com with the owner's REAL affiliate links (tag `j91788-20`) on every product. Monetization is wired; the bottleneck is now traffic + the setup items below.
 **Repo:** https://github.com/jonjenkins89-omega/cozytidyfinds.com
 
 ---
 
 ## What's Done
 
-- Multi-page site with 13 HTML pages
-- 26 real Amazon products with images across 5 categories
-- Blog with 1,800-word starter post
-- Operations manual for the owner at /manual/
-- HTTPS enforced, DNS clean
-- Link-in-bio page at /links/
-- About page with disclosure and privacy
-- SEO: sitemap, structured data, meta tags
-- GA4 tracking code (placeholder ID)
-- Kit newsletter forms (placeholder ID)
-- Affiliate click event tracking in JS
-- Research docs and Claudian playbook in docs/
-
----
+- Multi-page site, live, HTTPS, SEO (sitemap, structured data, meta tags)
+- **2026-07-04: all 13 of the owner's real Amazon Associates links are live** (from `current-projects/6.26.26_ctf_current.md`, a local-only folder that git never publishes). Kitchen page = her 9 kitchen picks; organization leads with her 3 picks; bathroom leads with the Vtopmart drawers; homepage features 6.
+- Every product photo pulled from its own Amazon listing, so image always matches link
+- Cards without a verified pick link to an Amazon **search** with her tag (CTA "Shop on Amazon"), so every click on the site is monetized; the old placeholder tag `cozytidyfinds-20` is fully gone
+- Fabricated star ratings/review counts removed site-wide (Amazon TOS risk); curated picks badged "CTF Pick"
+- **No personal names anywhere on the published site or served files** (Jon's hard rule, 2026-07-04). Owner's email lives only in `current-projects/PRIVATE-NOTES.md` (gitignored). Name still exists in old git history; Jon declined a history rewrite - fine.
+- Blog, /manual/, /links/, About w/ disclosure + privacy, affiliate click tracking in JS
+- Full detail: SESSION_LOG.md entry 2026-07-04
 
 ## Still Needs to Be Done (Priority Order)
 
-### 1. Amazon Associates Account (BLOCKER)
-- [ ] Apply at https://affiliate-program.amazon.com with cozytidyfinds.com
-- [ ] Once approved, get the real Associate tag
-- [ ] Find-and-replace `cozytidyfinds-20` with the real tag across ALL HTML files
-- [ ] Must make 3 qualifying sales within 180 days or account closes
+### 1. Amazon Associates account check (2 min, Jon) - MOST IMPORTANT
+- [ ] Verify cozytidyfinds.com is listed in her Associates account under "Websites and Mobile Apps" (if not, clicks may not credit)
+- [ ] Remember: 3 qualifying sales within 180 days of account creation or Amazon closes it -> traffic is urgent
 
-### 2. Google Analytics Setup
-- [ ] Create GA4 property at https://analytics.google.com
-- [ ] Get the Measurement ID (format: G-XXXXXXXXXX)
-- [ ] Replace `G-XXXXXXXXXX` in `js/main.js` line 4
-- [ ] Verify tracking works by visiting site and checking Real-time in GA4
+### 2. Google Analytics (GA4)
+- [ ] Jon logs into analytics.google.com in Chrome; Claude can drive browser, create the property, and wire the ID
+- [ ] Replace `G-XXXXXXXXXX` in `js/main.js` AND the gtag `<script>` tag in every HTML page
 
-### 3. Email Service (Kit / ConvertKit)
-- [ ] Create free account at https://kit.com
-- [ ] Create an inline signup form ("Cozy Tidy Finds Weekly")
-- [ ] Get the Form ID from Kit's embed code
-- [ ] Replace `FORM_ID` in ALL pages that have the newsletter section (9 files):
-  - index.html, kitchen/index.html, bathroom/index.html, organization/index.html,
-  - bedroom/index.html, plants/index.html, about/index.html, blog/index.html,
-  - blog/best-kitchen-organizers-2026/index.html
+### 3. Kit (ConvertKit) newsletter
+- [ ] Free account at kit.com, one inline form; replace `FORM_ID` in the 9 pages with newsletter sections
 
-### 4. Email Forwarding
-- [ ] Try Namecheap Redirect Email again (was broken on 5/13)
-  - Domain tab > Redirect Email > Add: support -> the owner's personal inbox (address in current-projects/PRIVATE-NOTES.md, not published)
-- [ ] If still broken: set up Zoho Mail free tier (zoho.com/mail)
-  - Sign up, verify domain, add MX records to Namecheap DNS
+### 4. Social accounts + traffic (the actual lever)
+- [ ] Owner creates Pinterest Business / Instagram / TikTok as "cozytidyfinds" (needs her phone/email)
+- [ ] Then Claude builds the Pinterest launch kit (branded pin graphics via the free local ComfyUI cover pipeline, captions, 10-min/day posting schedule) - offered 2026-07-04, Jon deferred to next session
+- [ ] Update footer social links (`href="#"`) + /links/ page
 
-### 5. Social Media Accounts
-- [ ] Create Pinterest Business account as "Cozy Tidy Finds"
-- [ ] Create Instagram account as @cozytidyfinds
-- [ ] Create TikTok account as @cozytidyfinds
-- [ ] Update social links in footer of ALL pages (currently href="#")
-- [ ] Update social links in links/index.html
-- [ ] Set link-in-bio URL to: https://cozytidyfinds.com/links/
+### 5. Email forwarding
+- [ ] Namecheap Redirect Email: support@ -> owner's inbox (address in `current-projects/PRIVATE-NOTES.md`); UI was broken 5/13, retry or use Zoho free tier
 
 ### 6. Google Search Console
-- [ ] Verify domain at https://search.google.com/search-console
-- [ ] Submit sitemap: https://cozytidyfinds.com/sitemap.xml
-- [ ] Can use DNS TXT record method for verification (add TXT record in Namecheap)
+- [ ] Verify domain, submit sitemap.xml
 
-### 7. Product Images (Optional Upgrade)
-- [ ] Current images are Amazon CDN hotlinks (work but not ideal long-term)
-- [ ] Option A: Keep as-is for now (functional)
-- [ ] Option B: Download images, optimize as WebP, serve from /images/ folder
-- [ ] Option C: Wait for the owner to photograph products herself (best for authenticity)
-
-### 8. Amazon Influencer Program
-- [ ] Apply once social media has ~500+ engaged followers
-- [ ] Gives a custom Amazon storefront (amazon.com/shop/cozytidyfinds)
-- [ ] Enables video reviews on Amazon product pages (passive income from Amazon's own traffic)
-
-### 9. Content Expansion
-- [ ] Add 2-3 more blog posts (target: "best bathroom organizers", "best closet organization")
-- [ ] Add seasonal content (gift guides, Prime Day prep)
-- [ ] Expand plants page (only 3 products, could use more)
-- [ ] Consider adding a "Deals" page for Prime Day / Black Friday
-
-### 10. Namecheap SSL Certificate
-- [ ] Request refund for the SSL cert you purchased (it's unused, GitHub provides free SSL)
-- [ ] Or just let it expire if refund window has passed
+### 7. Later / optional
+- [ ] More blog posts, seasonal content, plants page expansion
+- [ ] Amazon Influencer Program at ~500+ followers
+- [ ] Self-hosted WebP product images (current Amazon CDN hotlinks work)
+- [ ] Namecheap SSL refund (unused; GitHub provides SSL)
 
 ---
 
 ## Quick Reference for Next Claude Session
 
-**Start prompt:** "Working on cozytidyfinds.com. Read CLAUDE.md and docs/PLAYBOOK.md for context. Check SESSION_LOG.md for what's been done."
+**Start prompt:** "Working on cozytidyfinds.com. Read CLAUDE.md and HANDOFF.md, then SESSION_LOG.md for history."
 
-**Key files:**
-- `CLAUDE.md` - Project overview and conventions
-- `SESSION_LOG.md` - Full work history
-- `docs/PLAYBOOK.md` - Compressed operational playbook (Claudian format)
-- `manual/index.html` - the owner's operations manual
-- This file (`HANDOFF.md`) - What still needs doing
-
-**Associate tag placeholder:** `cozytidyfinds-20` (in all HTML files)
-**GA4 placeholder:** `G-XXXXXXXXXX` (in js/main.js)
-**Kit form placeholder:** `FORM_ID` (in 9 HTML files)
-**Social link placeholders:** `href="#"` (in footer of all pages + links page)
-
----
+**Key facts:**
+- Real Associates tag: `j91788-20` - already live in every product link; never reintroduce `cozytidyfinds-20`
+- Her curated links list: `current-projects/6.26.26_ctf_current.md` (gitignored, local only)
+- Remaining placeholders: `G-XXXXXXXXXX` (GA4, js/main.js + every page's gtag script), `FORM_ID` (Kit, 9 pages), social `href="#"`
+- HARD RULE: the owner's name never appears in any committed/published file (badges say "CTF Pick"). Her email only in `current-projects/PRIVATE-NOTES.md`.
+- NOTE: CLAUDE.md's "Conventions > Affiliate Links / Placeholders to Replace" sections still describe the old placeholder-tag era; this HANDOFF is current. (Flagged 2026-07-04; update CLAUDE.md next session with Jon's OK.)
 
 ## For the Owner (Show Her)
 
 1. The live site: https://cozytidyfinds.com
 2. Her manual: https://cozytidyfinds.com/manual/
-3. The link-in-bio page for her social profiles: https://cozytidyfinds.com/links/
-4. She needs to: create social media accounts, start posting, photograph products she owns
-5. Everything else (Amazon Associates, analytics, email) Jon handles first
+3. Link-in-bio page: https://cozytidyfinds.com/links/
+4. She needs to: create social accounts, start posting (Pinterest first)
+5. Jon handles: Associates account check, analytics, Kit, email forwarding

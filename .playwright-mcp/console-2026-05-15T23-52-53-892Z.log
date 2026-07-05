@@ -1,5 +1,0 @@
-[     783ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
-[     791ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/amazon.js:0
-[     811ms] [WARNING] [NoriLogger] Logger, campaignElement, or campaignID not available for performance tracking @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
-[     814ms] [WARNING] No client strategy found. Metrics will not be enabled. @ https://m.media-amazon.com/images/I/911U-Fct8AL.js:26
-[     819ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m.media-amazon.com/images/S/sash/mraid.js:0

@@ -1,5 +1,0 @@
-[     152ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy No events to send to endpoint @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
-[    1743ms] [LOG] [NoriLogger] Initialized successfully @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:26
-[    1748ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
-[    1749ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for fontsRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10
-[    1778ms] [ERROR] [NoriLogger] [WARN] DSPClientStrategy NoriLogger: Timer for gridBuilderBuyBoxRender already exists. @ https://m.media-amazon.com/images/I/B1dz9frsFyL.js:10

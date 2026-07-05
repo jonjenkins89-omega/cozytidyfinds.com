@@ -78,6 +78,10 @@ Running log of all work done on this project. Most recent entries at the bottom.
 - **Removed all fabricated star ratings / review counts** (Amazon TOS risk and not honest). Curated picks are badged "CTF Pick".
 - **Polish:** product photos display uncropped on white with a soft hover zoom (new `.product-img img` CSS), all images lazy-load, sitemap lastmod bumped to 2026-07-04.
 - Added .gitignore so `current-projects/` (link worksheets) never publishes to the live site.
+- **Name scrub (Jon's hard rule, same session):** the owner's first name removed from EVERYTHING published: badges renamed "CTF Pick", About-page intro reworded, hidden /home-is-you/ greeting changed to "Hey you,", and name + personal email scrubbed from CLAUDE.md / HANDOFF.md / SESSION_LOG.md (all publicly served by GitHub Pages). Email now lives only in gitignored `current-projects/PRIVATE-NOTES.md`. Verified zero occurrences on every live page and served file. Name remains only in old git history; Jon declined a history rewrite.
+- **Image fix:** the 14pc Clear Drawer Organizer card showed the listing's pink promo graphic; swapped to the listing's clear-bins-on-marble photo (71w2xsr8D5L) on homepage + organization page.
+- **Decisions:** unverified products link to Amazon SEARCH with her tag rather than keeping invented ASINs (no dead clicks, everything monetized); fake ratings removed for Amazon TOS + honesty; verbatim link URLs kept (linkId tracking intact).
+- **Next session (Jon's call, 2026-07-04):** Associates account check (site listed + 3-sales/180-day rule), GA4 + Kit wiring (Jon logs in, Claude drives), then the Pinterest launch kit. See HANDOFF.md.
 
 ### Pending (unchanged)
 - GA4 ID, Kit FORM_ID, email forwarding, social links.
