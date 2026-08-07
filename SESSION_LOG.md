@@ -96,3 +96,7 @@ Running log of all work done on this project. Most recent entries at the bottom.
 - **GA4 attempt failed-fast:** analytics.google.com would not load in the automation tab (extension site permissions, most likely). Left on the handoff; everything else in the tab (MailerLite, the live site) worked.
 - **Research fleet dispatched** (4 parallel agents): affiliate conversion psychology, how winning affiliates operate in 2026, next products shortlist, posting playbook. Results land as four new docs in docs/.
 - **CLAUDE.md conventions rewritten** to current reality: real tag policy, self-hosted image rule, MailerLite endpoint details, remaining placeholders (GA4, social links).
+
+## 2026-08-07 (daytime) — Five researched products shipped
+- On Jon's go, the five twice-verified staged cards went LIVE: Overmont Dutch oven, Ninja DualZone air fryer, Fullstar chopper (kitchen); GODONLIF candle warmer, Twinkle Star curtain lights (bedroom's FIRST real products; both were top trend signals in the research). Two-sided blurbs (one honest drawback each) per the conversion-psychology research. All verified live, images self-hosted at 800px, constructed dp links with the real tag.
+- Next content lever per research: replace the remaining ~15 search-link cards with real products (Plants still has zero), and the two-sided blurb pass on the older cards.
