@@ -14,11 +14,20 @@
 - Six Pinterest pins drafted: `docs/pin-queue-2026-08-07.md`. Pinterest NOT connected to IFTTT yet; connect URL is in that file.
 - Research fleet ran; four new docs in `docs/` (psychology of conversion, how winners operate, next products shortlist, posting playbook).
 
+## Codex red-team outcome (2026-08-07, full loop run before final push)
+- CRITICAL caught pre-push: operator docs and account detail would have published on this PUBLIC repo. Fixed: all identity/account detail scrubbed from served files (verified 0 leaks live), operator docs (research, pin queue, staged cards) gitignored and 404 on the live site, git identity reset to the noreply account.
+- Confirmed clean by both reviewers: affiliate links + tag, image sanitization mapping, JS handler (no XSS, no double-submit, safe on formless pages), HTML validity, no fabricated ratings/prices.
+- Fixed from findings: no-JS newsletter fallback (hidden ml-submit/anticsrf fields on all 9 forms).
+- OPEN, Jon's call: pushed commit e988277 has author "Jonathan Jenkins" + personal email in public GitHub metadata. Fix is a history rewrite + force push (one command, ready in PRIVATE-NOTES). Old commits also carry the name (Jon declined a rewrite before). Also Jon's-call: "Jonathan" signature on /home-is-you/ and "Tell Jon" in /manual/ remain live.
+
 ## Still Needs to Be Done (Priority Order)
 
 ### 1. Amazon Associates account check (2 min, Jon) - MOST IMPORTANT, unchanged
 - [ ] Verify cozytidyfinds.com is listed in the Associates account under "Websites and Mobile Apps" (if not, clicks may not credit)
 - [ ] The 3 qualifying sales / 180 days rule makes traffic urgent
+
+### 1b. Product image policy decision (Jon, after reading research-how-winners-operate-2026.md)
+- [ ] The 2026-08-07 self-hosting fix WORKS (and hotlinking was genuinely broken for ad-blocked visitors), but the winners research doc found Amazon's current policy only permits product imagery served via their API or approved links, so self-hosted copies carry ToS exposure (common practice, rarely enforced, still real). Options: keep as-is; or replace product shots with the owner's own photos over time (best: also required for Pinterest pins anyway, and immune to policy); or PA API images once the 3-sale gate is passed. Decide direction; do not revert to hotlinks.
 
 ### 2. Pinterest (the traffic lever, now 15 min from live)
 - [ ] Owner logs into (or creates) the CTF Pinterest account in the browser, then opens the IFTTT connect URL in `docs/pin-queue-2026-08-07.md`
