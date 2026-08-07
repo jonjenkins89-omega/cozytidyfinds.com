@@ -1,3 +1,10 @@
 current-projects/
 .playwright-mcp/
 .claude/
+# Operator docs: research, pin queues, staged work. Never published (the repo is PUBLIC and Pages serves every tracked file).
+docs/research-psychology-of-affiliate-conversion.md
+docs/research-how-winners-operate-2026.md
+docs/research-next-products-2026-08.md
+docs/research-posting-playbook-2026.md
+docs/pin-queue-*.md
+docs/staged-cards-*.md

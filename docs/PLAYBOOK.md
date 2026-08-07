@@ -10,7 +10,7 @@
 
 ```
 BRAND: "Cozy Tidy Finds" | CTF
-OPERATOR: Jon Jenkins (tech/backend)
+OPERATOR: the site tech (backend)
 FACE: Jon's wife (content creator, brand voice, social presence)
 DOMAIN: cozytidyfinds.com
 HOSTING: GitHub Pages (static HTML/CSS, no build tools)

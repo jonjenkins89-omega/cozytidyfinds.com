@@ -2,7 +2,7 @@
 
 ## Overview
 
-Amazon affiliate marketing website for Jon's wife. She is the face and brand; Jon handles all technical work. The business model: curate home/organization product recommendations, drive traffic from social media (Instagram, TikTok, Pinterest), and earn commissions through Amazon Associates affiliate links when visitors purchase through the site.
+Amazon affiliate marketing website. The owner is the face and brand; her husband handles all technical work. The business model: curate home/organization product recommendations, drive traffic from social media (Instagram, TikTok, Pinterest), and earn commissions through Amazon Associates affiliate links when visitors purchase through the site.
 
 ## Domain & Hosting
 
@@ -61,22 +61,29 @@ Nav, disclosure bar, newsletter, and footer are duplicated across all pages, mar
 When changing any shared block, update ALL HTML files that contain it.
 
 ### Affiliate Links
-- Format: `https://www.amazon.com/dp/PLACEHOLDER_ASIN?tag=cozytidyfinds-20`
+- The LIVE Associates tag is `j91788-20` (the owner's real tag; never reintroduce `cozytidyfinds-20`)
+- Links are pasted exactly as generated from the owner's Associates account (SiteStripe/GetLink full URLs or amzn.to short links); never strip their parameters
 - Attributes: `class="btn-shop affiliate-link" data-product="slug" data-category="category" target="_blank" rel="noopener nofollow sponsored"`
 - CTA text: "Check Price on Amazon"
 - **NEVER display prices** (Amazon TOS violation without their API)
 
-### Placeholders to Replace
-- `PLACEHOLDER_ASIN` -> real Amazon ASINs (once products are finalized)
-- `cozytidyfinds-20` -> real Amazon Associates tag (once account approved)
+### Product Images (changed 2026-08-07)
+- ALL product images are SELF-HOSTED in `images/products/`, filename = Amazon image basename with `+` replaced by `plus`
+- Never hotlink `m.media-amazon.com` in a page: ad blockers and tracking protection silently kill hotlinked Amazon images for a chunk of visitors (this was Jon's "photos are not there" bug)
+- To add a product: download its Amazon image, save to `images/products/`, reference `/images/products/<name>`
+
+### Newsletter (changed 2026-08-07: LIVE via MailerLite, Kit is gone)
+- All 9 newsletter forms post to the MailerLite embedded form "CTF Website Newsletter" (form id `195111725217875030`, account `2176883`), endpoint `https://assets.mailerlite.com/jsonp/2176883/forms/195111725217875030/subscribe`
+- Subscribers land in MailerLite group "CTF - Website Subscribers" (id `195111687890667227`), single opt-in (double opt-in OFF, set in the dashboard 2026-08-07 so no off-brand confirmation email goes out)
+- The MailerLite account details and separation rules live in `current-projects/PRIVATE-NOTES.md` (gitignored). Capture-only is safe; a CTF campaign SEND needs a CTF sender identity first
+- `js/main.js` handles submit inline (fetch POST, success message, GA event `newsletter_signup`)
+
+### Remaining Placeholders
 - `G-XXXXXXXXXX` -> real GA4 measurement ID
-- `FORM_ID` -> real Kit (ConvertKit) form ID
-- `.placeholder-card` divs -> real product images
 - Social media `href="#"` -> real profile URLs
 
 ### Email
 - support@cozytidyfinds.com (forwarding to the owner's personal inbox (address in current-projects/PRIVATE-NOTES.md, not published), setup pending in Namecheap)
-- Kit (ConvertKit) for newsletter signups (account setup pending)
 
 ## Key Documents
 

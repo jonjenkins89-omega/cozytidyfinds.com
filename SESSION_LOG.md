@@ -85,3 +85,14 @@ Running log of all work done on this project. Most recent entries at the bottom.
 
 ### Pending (unchanged)
 - GA4 ID, Kit FORM_ID, email forwarding, social links.
+
+## 2026-08-07 — Henckels listing, subscribe FIXED, all images self-hosted (overnight autonomous run)
+
+- **New product live: J.A. Henckels 14-pc Self-Sharpening Block Set** (ASIN B07FM9Y8VS, Jon's SiteStripe link, tag j91788-20 verified in the live href). First card on the homepage featured grid and the kitchen page, "New Find" badge, human blurb in site voice. Highest-ticket item on the site (~$220), so one sale outearns ~10 organizer sales.
+- **Subscribe feature FIXED end to end** (it was dead; every form posted to the literal Kit placeholder `FORM_ID`). All 9 newsletter forms now post to a real MailerLite embedded form ("CTF Website Newsletter", form 195111725217875030, account 2176883) created tonight via API. Subscribers land in new group "CTF - Website Subscribers" (id 195111687890667227), fully separated from any other list in the account. Double opt-in turned OFF for this form in the dashboard (no off-brand confirmation email to CTF subscribers). `js/main.js` got a submit handler: inline "You're in!" success, validation errors, `newsletter_signup` GA event. **Live-tested on the deployed site: test subscriber landed in the group, status active, source webform.** Account specifics live in `current-projects/PRIVATE-NOTES.md` (gitignored).
+- **All product images self-hosted** (Jon reported missing photos; cause: hotlinked `m.media-amazon.com` images get blocked by ad blockers / tracking protection for a slice of visitors, and CDN links rot). All 31 images downloaded to `images/products/` (`+` in Amazon filenames became `plus`), every page rewritten, zero Amazon hotlinks remain. Verified live: every image on the kitchen page serves 200 from cozytidyfinds.com.
+- **Blog placeholder killed:** the "Article Photo" gray box on /blog/ now shows the pantry-container photo.
+- **Pinterest prepped, nothing posted:** IFTTT create_pin checked, Pinterest NOT connected yet. Six pins drafted in `docs/pin-queue-2026-08-07.md` with live-verified image + landing URLs, plus the connect URL and instructions. Firing requires connecting the CTF Pinterest account and Jon's live confirmation per the pinterest skill gate.
+- **GA4 attempt failed-fast:** analytics.google.com would not load in the automation tab (extension site permissions, most likely). Left on the handoff; everything else in the tab (MailerLite, the live site) worked.
+- **Research fleet dispatched** (4 parallel agents): affiliate conversion psychology, how winning affiliates operate in 2026, next products shortlist, posting playbook. Results land as four new docs in docs/.
+- **CLAUDE.md conventions rewritten** to current reality: real tag policy, self-hosted image rule, MailerLite endpoint details, remaining placeholders (GA4, social links).
