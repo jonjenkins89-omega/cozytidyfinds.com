@@ -1,8 +1,14 @@
 # Cozy Tidy Finds - Handoff / Next Session TODO
 
-**Last Updated:** 2026-08-07 (overnight autonomous run)
-**Status:** Site LIVE at https://cozytidyfinds.com. Monetization wired (tag `j91788-20` on every product). Subscribe WORKS (MailerLite). All images self-hosted. Bottleneck is unchanged: TRAFFIC. No social accounts exist yet.
+**Last Updated:** 2026-08-09
+**Status:** Site LIVE at https://cozytidyfinds.com. TRAFFIC ENGINE RUNNING: Pinterest live (business account cozytidyfinds01 via IFTTT, 6 pins posted 08-07/08-08, first clicks landing), blog = 4 posts, homepage mission section live. All 50 Amazon links verified carrying `j91788-20`. Standing order (Jon 2026-08-09): up to 3 CTF pins/day pre-authorized IF amazon-guard-passed + Codex-cleared + branded graphic + site links only; log every publish in `docs/content-ledger.md`.
 **Repo:** https://github.com/jonjenkins89-omega/cozytidyfinds.com
+
+## What changed 2026-08-08/09 (detail in SESSION_LOG + content-ledger)
+- Pinterest bridge live end to end: `pinterest` skill (IFTTT create_pin) + branded 1000x1500 pin graphics (`docs/make_pin.py`, template v1 Jon-approved) + `amazon-guard` skill (Amazon policy gate, live-policy-verified). Pins NEVER link to Amazon (Pinterest is not on Amazon's approved social list).
+- Blog +3 posts: Henckels breakdown, Under-Sink Reset, Entryway Drop Zone. Homepage: "Why We Started / We Got Tired of Being Sold To" mission section + From the Blog strip.
+- FTC CLEANUP (Codex-driven): ALL first-person testing/purchase claims converted to review-sourced framing sitewide, including meta/og/JSON-LD. Iron rules now in CLAUDE.md Content Claims section. Ledger: `docs/content-ledger.md` (gitignored).
+- Old (2026-08-07) status lines below are historical.
 
 ---
 

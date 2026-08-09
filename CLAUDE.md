@@ -78,6 +78,12 @@ When changing any shared block, update ALL HTML files that contain it.
 - The MailerLite account details and separation rules live in `current-projects/PRIVATE-NOTES.md` (gitignored). Capture-only is safe; a CTF campaign SEND needs a CTF sender identity first
 - `js/main.js` handles submit inline (fetch POST, success message, GA event `newsletter_signup`)
 
+### Content Claims (IRON RULES, Jon 2026-08-09, from the FTC red-team)
+- **The operators do not purchase or physically test products. NO copy may claim otherwise, anywhere** - body text, meta description, og tags, JSON-LD, card blurbs, pin text. Banned: "we tested/tried/bought/own/returned", "ours", "tried it ourselves", "We Test", any first-person use-timespan. Allowed framing: review-sourced ("owners report", "long-term reviews say"), subjunctive curation ("we'd put it in our own home"). Full rules + sweep regex: the `amazon-guard` skill, rule 10.
+- **Every publish gets logged** in `docs/content-ledger.md` (gitignored): product, links, verbiage class. No exceptions.
+- **Every publish is Codex red-teamed before push** (site content and pins both).
+- Pinterest: Jon's standing order allows up to 3 CTF pins/day, guard-passed + Codex-cleared, branded graphics (`docs/make_pin.py`), site links only. Detail: the `pinterest` skill.
+
 ### Remaining Placeholders
 - `G-XXXXXXXXXX` -> real GA4 measurement ID
 - Social media `href="#"` -> real profile URLs
